@@ -43,24 +43,34 @@
     <div class="wrapper">
        <div class=".position-left column small-5">
         <form action="form.php" method="get">
-           <div class="column">
-                <label for="Firstname">
-                    First Name
+          
+            <div class="row">
+                <label for="Firstname" class="column small-3">
+                    <h5>First Name</h5>
                 </label>
-               <input type="text" name="FirstName"> 
+               <input type="text" name="FirstName" class="column small-4"> 
+            </div>
                <!-- function of this item -->
-               <label for="Lastname">
-                    Last Name <br>
-                    <input type="text" name="LastName"><br>
+            <div class="row">
+                <label for="Lastname" class="column small-3">
+                    <h5>Last Name</h5>
                 </label>
-            </div> 
-             <label for="phone">Phone Number
-             <input type="tel" name="phone">
-             </label>
+               <input type="text" name="LastName" class="column small-4"> 
+            </div>
+            
+            <div class="row">
+                 <label for="phone" class="column small-3">
+                     <h5>Phone Number</h5>
+                 </label>
+                 <input type="tel" name="phone" class="column small-4">
+             </div>
              
-             <label for="email">Email
-             <input type="email" name="email"> <br>
+             <div class="row">
+             <label for="email" class="column small-3">
+                 <h5>Email</h5>
              </label>
+             <input type="email" name="email" class="column small-4"> <br>
+             </div>
               <!-- radios = more then one option -->
             <input type="radio" name="color" value="red"> Red <br>
             <input type="radio" name="color" value="blue"> Blue <br>
