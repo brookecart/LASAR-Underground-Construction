@@ -1,13 +1,19 @@
 .lsr-body {
-    background-color:skyblue;
+   // background-color:skyblue;
 }
 .lsr-wrapper {
-    background-color:white;
+    //background-color:white;
 }
 .lsr-nav {
-    display:
+    //background-color:#FBA100;
 }
 .lsr-over {
-    display: flex;
-    justify-content: center;
+    //display: flex;
+    //justify-content: center;
+}
+.aqua {
+    //background-color: #6BBAA7;
+}
+.menu {
+    border: 0px
 }
