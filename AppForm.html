@@ -7,15 +7,15 @@
     <title>LASER Underground</title>
     <link rel="stylesheet" href="css/foundation.css">
     <link rel="stylesheet" href="css/app.css">
-    <link rel="shortcut icon" type="image/x-icon" href="tabimage.png" />
+    <link rel="shortcut icon" type="image/x-icon" href="cone.png" />
     <link href="https://fonts.googleapis.com/css?family=Teko" rel="stylesheet">
   </head>
-      <body style="background-color: #B6A19E">
+      <body class="lsr-body">
        <div class="large-3 columns">
         <a href="index.html">
             </a>
     </div>     
-    <div class="top-bar" style="background-color: #FBA100">
+    <div class="top-bar lsr-nav" style="background-color: #FBA100">
       <div class="top-bar-left">
         <ul class="dropdown menu" data-dropdown-menu style="background-color: #6BBAA7;">
           <li>
@@ -39,28 +39,38 @@
         </ul>
       </div>
     </div>
-    
-    <div class="wrapper">
+    <div class="lsr-over">
+    <div class="wrapper large-7 lsr-wrapper">
        <div class=".position-left column small-5">
         <form action="form.php" method="get">
-           <div class="column">
-                <label for="Firstname">
-                    First Name
+          
+            <div class="row">
+                <label for="Firstname" class="column small-5">
+                    <h5>First Name</h5>
                 </label>
-               <input type="text" name="FirstName"> 
+               <input type="text" name="FirstName" class="column small-5"> 
+            </div>
                <!-- function of this item -->
-               <label for="Lastname">
-                    Last Name <br>
-                    <input type="text" name="LastName"><br>
+            <div class="row">
+                <label for="Lastname" class="column small-5">
+                    <h5>Last Name</h5>
                 </label>
-            </div> 
-             <label for="phone">Phone Number
-             <input type="tel" name="phone">
-             </label>
+               <input type="text" name="LastName" class="column small-5"> 
+            </div>
+            
+            <div class="row">
+                 <label for="phone" class="column small-5">
+                     <h5>Phone Number</h5>
+                 </label>
+                 <input type="tel" name="phone" class="column small-5">
+             </div>
              
-             <label for="email">Email
-             <input type="email" name="email"> <br>
+             <div class="row">
+             <label for="email" class="column small-5">
+                 <h5>Email</h5>
              </label>
+             <input type="email" name="email" class="column small-5"> <br>
+             </div>
               <!-- radios = more then one option -->
             <input type="radio" name="color" value="red"> Red <br>
             <input type="radio" name="color" value="blue"> Blue <br>
@@ -93,4 +103,6 @@
             <input type="submit">
         </form>
         </div>
-    </div>
+        </div>
+        </div>
+    </body>
