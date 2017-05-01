@@ -1,5 +1,5 @@
 <?php
-            require('modules/navbar.php') //Head
+            require('navbar.php') //Head
         ?>
     <script src="js/vendor/jquery.js"></script>
     <script src="js/vendor/what-input.js"></script>
