@@ -17,8 +17,7 @@
             </a>
     </div>     
     
- 
- 
+
  <div data-sticky-container class="lsr-nav" style="height: 72px;">
   <div class="title-bar sticky is-anchored is-at-top" data-sticky data-options="marginTop:0;" style="width:100%" data-top-anchor="1">
     <div class="title-bar-left">
@@ -43,7 +42,7 @@
     </div>
   </div>
 </div>
- 
+ <iframe src="https://spark.adobe.com/video/1xjWG8geIOqSW/embed" width="960" height="540" frameborder="0" allowfullscreen></iframe>
  
   <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
    <script src="js/vendor/jquery.js"></script>
