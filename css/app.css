@@ -1,5 +1,5 @@
 .lsr-body {
-   // background-color:skyblue;
+    //background-color:skyblue;
 }
 .lsr-wrapper {
     //background-color:white;
@@ -10,6 +10,10 @@
 .lsr-over {
     //display: flex;
     //justify-content: center;
+}
+.lsr-imgText {
+    display: flex;
+    height: 20rem;
 }
 .aqua {
     //background-color: #6BBAA7;
