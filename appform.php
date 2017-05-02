@@ -2,110 +2,71 @@
             require('navbar.php') //Head
         ?>
         <!doctype html>
- -<html class="no-js" lang="en" dir="ltr">
- -  <head>
- -    <meta charset="utf-8">
- -    <meta http-equiv="x-ua-compatible" content="ie=edge">
- -    <meta name="viewport" content="width=device-width, initial-scale=1.0">
- -    <title>LASER Underground</title>
- -    <link rel="stylesheet" href="css/foundation.css">
- -    <link rel="stylesheet" href="css/app.css">
- -    <link rel="shortcut icon" type="image/x-icon" href="cone.png" />
- -    <link href="https://fonts.googleapis.com/css?family=Teko" rel="stylesheet">
- -  </head>
- -      <body class="lsr-body">
- -       <div class="large-3 columns">
- -        <a href="index.html">
- -            </a>
- -    </div>     
- -    <div class="top-bar lsr-nav" style="background-color: #FBA100">
- -      <div class="top-bar-left">
- -        <ul class="dropdown menu" data-dropdown-menu style="background-color: #6BBAA7;">
- -          <li>
- -            <a href="proCat.php" style="color: white;">Categories</a>
- -            <ul class="menu vertical" style="background-color: #6BBAA7;" href="proCat.php">
- -              <li><a href="catspace.php" style="color: white;">Space Jam</a></li>
- -              <li><a href="catacc.php" style="color: white;">Accessories</a></li>
- -              <li><a href="catcloth.php" style="color: white;">Clothes</a></li>
- -              <li><a href="cathome.php" style="color: white;">Home/ Decor</a></li>
- -            </ul>
- -          </li>
- -          <li><a href="about.php" style="color: white;">About</a></li>
- -          <li><a href="contact.php" style="color: white;">Contact</a></li>
- -        </ul>
- -      </div>
- -      <div class="top-bar-right">
- -        <ul class="dropdown menu" data-dropdown-menu style="background-color: #6BBAA7;">
- -          <li>
- -            <a href="cart.php" style="color: white;">Cart</a>
- -          </li>
- -        </ul>
- -      </div>
- -    </div>
- -    <div class="lsr-over">
- -    <div class="wrapper large-7 lsr-wrapper">
- -       <div class=".position-left column small-5">
- -        <form action="form.php" method="get">
- -          
- -            <div class="row">
- -                <label for="Firstname" class="column small-5">
- -                    <h5>First Name</h5>
- -                </label>
- -               <input type="text" name="FirstName" class="column small-5"> 
- -            </div>
- -               <!-- function of this item -->
- -            <div class="row">
- -                <label for="Lastname" class="column small-5">
- -                    <h5>Last Name</h5>
- -                </label>
- -               <input type="text" name="LastName" class="column small-5"> 
- -            </div>
- -            
- -            <div class="row">
- -                 <label for="phone" class="column small-5">
- -                     <h5>Phone Number</h5>
- -                 </label>
- -                 <input type="tel" name="phone" class="column small-5">
- -             </div>
- -             
- -             <div class="row">
- -             <label for="email" class="column small-5">
- -                 <h5>Email</h5>
- -             </label>
- -             <input type="email" name="email" class="column small-5"> <br>
- -             </div>
- -              <!-- radios = more then one option -->
- -            <input type="radio" name="color" value="red"> Red <br>
- -            <input type="radio" name="color" value="blue"> Blue <br>
- -            <input type="radio" name="color" value="magenta">Pink <br> <br>
- -              <!-- multiple lets you select more then onw thing, select alone only allows one -->
- -            <select name="best Gem" multiple>
- -               <!--  these are the options for the select -->
- -                <option value="P">Pearl</option>
- -                <option value="G">Garnet</option>
- -                <option value="A">Amythest</option>
- -                <option value="S">Steven</option>
- -                <option value="L">Lapis</option>
- -                <option value="P">Peridot</option>
- -                
- -            </select>  <br><br>
- -            <!-- its a checkbox man -->
- -            <input type="checkbox" value="op1" checked> option 1 <br>
- -            <input type="checkbox" value="op2"> option 2  <br>
- -            <input type="checkbox" value="op3"> option 3 <br>    <br> 
- -            
- -            <label for="text"> My text:</label> <br>
- -             <!-- its just text -->
- -            <textarea name="text" cols ="30" rows="10">
- -            </textarea>  <br> <br>
- -              <!-- normal button -->
- -            <button type="button" name="ClickMe" value="clicked" onclick="alert('Stop pushing my button!')"> Click Me!</button> <br> <br>
- -            
- -            <button type="reset">Reset</button>
- -            
- -            <input type="submit">
- -        </form>
- -        </div>
- -        </div>
- -        </div>
- -    </body>
+
+<div class="lsr-over">
+<div class="wrapper large-7 lsr-wrapper">
+ <div class=".position-left column small-5">
+<form action="form.php" method="get">
+<div class="row">
+                <label for="Firstname" class="column small-5">
+                    <h5>First Name</h5>
+                 </label>
+              <input type="text" name="FirstName" class="column small-5"> 
+            </div>
+                <!-- function of this item -->
+            <div class="row">
+                 <label for="Lastname" class="column small-5">
+                    <h5>Last Name</h5>
+                 </label>
+                <input type="text" name="LastName" class="column small-5"> 
+             </div>
+             
+             <div class="row">
+                  <label for="phone" class="column small-5">
+                      <h5>Phone Number</h5>
+                  </label>
+                  <input type="tel" name="phone" class="column small-5">
+              </div>
+              
+              <div class="row">
+              <label for="email" class="column small-5">
+                  <h5>Email</h5>
+              </label>
+              <input type="email" name="email" class="column small-5"> <br>
+              </div>
+               <!-- radios = more then one option -->
+             <input type="radio" name="color" value="red"> Red <br>
+             <input type="radio" name="color" value="blue"> Blue <br>
+             <input type="radio" name="color" value="magenta">Pink <br> <br>
+               <!-- multiple lets you select more then onw thing, select alone only allows one -->
+             <select name="best Gem" multiple>
+                <!--  these are the options for the select -->
+                 <option value="P">Pearl</option>
+                 <option value="G">Garnet</option>
+                 <option value="A">Amythest</option>
+                 <option value="S">Steven</option>
+                 <option value="L">Lapis</option>
+                 <option value="P">Peridot</option>
+                 
+             </select>  <br><br>
+             <!-- its a checkbox man -->
+             <input type="checkbox" value="op1" checked> option 1 <br>
+             <input type="checkbox" value="op2"> option 2  <br>
+             <input type="checkbox" value="op3"> option 3 <br>    <br> 
+             
+             <label for="text"> My text:</label> <br>
+              <!-- its just text -->
+             <textarea name="text" cols ="30" rows="10">
+             </textarea>  <br> <br>
+               <!-- normal button -->
+             <button type="button" name="ClickMe" value="clicked" onclick="alert('Stop pushing my button!')"> Click Me!</button> <br> <br>
+             
+             <button type="reset">Reset</button>
+             
+             <input type="submit">
+         </form>
+         </div>
+         </div>
+         </div>
+     </body>
+</html>
