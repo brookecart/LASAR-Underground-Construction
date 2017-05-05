@@ -1,10 +1,10 @@
+<<<<<<< HEAD
 <?php require('navbar.php');?>
 <div class="lsrWrapper" >
     <div class="lsrOver large-6">
         <div class="row lsrPart">
 
             <?php require('msgform.php');?>
-
         </div>
     </div>
     <div class="lsrOver">
