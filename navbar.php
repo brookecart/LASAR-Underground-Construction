@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="css/foundation.css">
     <link rel="stylesheet" href="css/app.css">
     <link rel="shortcut icon" type="image/x-icon" href="cone.png" />
-    <link href="https://fonts.googleapis.com/css?family=Teko" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Teko" rel="stylesheet">  
   </head>
       <body class="lsr-body" style="background-color: #B6A19E">
        <div class="large-3 columns">
