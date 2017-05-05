@@ -17,18 +17,12 @@
             </a>
     </div>     
     
-<div data-sticky-container>
- <div class="title-bar" data-sticky data-options="marginTop:0;" style="width:100%">
-      <div class="top-bar-title">
-    <span data-responsive-toggle="responsive-menu" data-hide-for="medium">
-      <button class="menu-icon dark" type="button" data-toggle></button>
-    </span>
-    <img src="Images/LogoOFficial.png">
-  </div>
-      <div id="responsive-menu">
-    <div class="top-bar-left">
-      <ul class="dropdown menu" data-dropdown-menu>
-       <li>
+
+<div class="top-bar">
+  <div class="top-bar-left">
+    <ul class="dropdown menu" data-dropdown-menu>
+      <li class="menu-text">Site Title</li>
+      <li>
         <a href="accomplishments.php">Accomplishments</a>
         <ul class="menu vertical">
           <li><a href="catspace.php">AREA1</a></li>
@@ -48,5 +42,3 @@
     </ul>
     </div>
   </div>
-</div>
-          </div>
