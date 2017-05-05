@@ -16,13 +16,13 @@
          <form action="form.php" method="get">
            
              <div class="row">
-                 <label for="Firstname" class="column small-6">
+                 <label for="Firstname" class="column small-6 lsrFlex">
                      <h5>First Name</h5>
                         <input type="text" name="FirstName" class="column small-5">
                  </label>
                  
             
-                 <label for="Lastname" class="column small-6">
+                 <label for="Lastname" class="column small-6 lsrFlex">
                      <h5>Last Name</h5>
                 <input type="text" name="LastName" class="column small-5"> 
                 </label>
@@ -47,7 +47,7 @@
                   </label>
                   <input type="text" name="subj" class="column small-5">
               </div>
-              <div>
+              <div class="row">
                     <label for="message" class="column small-5">
                         <h5> Message </h5>
                     </label>

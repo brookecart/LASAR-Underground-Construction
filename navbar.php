@@ -17,7 +17,16 @@
             </a>
     </div>     
     
-
+    <?php 
+        function imgText($imgSrc, $imgSize, $lsrText) { //function to make an image with text next to it
+            echo "<div class='row $imgSize lsrImgText'>".
+                "<img src='$imgSrc' class='column large-8'></img>".
+                "<p class='column'>$lsrText".
+                "</div>";
+        }
+    // Example for usage: imgText("Images/IMG_1602.jpeg","Lorem Ipsum");
+    // make sure it's in php
+    ?>
  <div data-sticky-container class="lsr-nav" style="height: 72px;">
   <div class="title-bar sticky is-anchored is-at-top" data-sticky data-options="marginTop:0;" style="width:100%" data-top-anchor="1">
     <div class="title-bar-left">
