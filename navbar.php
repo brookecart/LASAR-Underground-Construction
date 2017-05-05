@@ -16,9 +16,17 @@
         <!--<img rc="images/logo.png">-->
             </a>
     </div>     
-    
-
-<div class="top-bar">
+    <?php 
+        function imgText($imgSrc, $imgSize, $lsrText) { //function to make an image with text next to it
+            echo "<div class='row $imgSize lsrImgText'>".
+                "<img src='$imgSrc' class='column large-8'></img>".
+                "<p class='column'>$lsrText".
+                "</div>";
+        }
+    // Example for usage: imgText("Images/IMG_1602.jpeg","Lorem Ipsum");
+    // make sure it's in php
+    ?>
+ <div class="top-bar">
   <div class="top-bar-left">
     <ul class="dropdown menu" data-dropdown-menu>
       <li class="menu-text">Site Title</li>

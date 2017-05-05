@@ -1,17 +1,17 @@
-<?php
-            require('navbar.php') //Head
-        ?>
+<?php require('navbar.php');?>
+<div class="lsrWrapper" >
+    <div class="lsrOver large-6">
+        <div class="row lsrPart">
 
-<div class="row large-6 lsrOver">
-   
-    <?php require('msgform.php');?>
-    
+            <?php require('msgform.php');?>
+        </div>
+    </div>
+    <div class="lsrOver">
+        <div class="row lsrPart">
+            <?php imgText("Images/IMG_1602.jpeg", "small-9", "Lorem Ipsum");
+            ?>
+        </div>
+    </div>
 </div>
-    
-    <script src="js/vendor/jquery.js"></script>
-    <script src="js/vendor/what-input.js"></script>
-    <script src="js/vendor/foundation.js"></script>
-    <script src="js/app.js"></script>  
-
 </body>
 </html>

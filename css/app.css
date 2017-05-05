@@ -2,13 +2,20 @@
     background-color:skyblue;
 }
 .lsrWrapper {
-    background-color:white;
+    display: flex;
+    align-items: center;
 }
 .lsrNav {
     background-color:#FBA100;
 }
 .lsrOver {
-    
+    display: flex; 
+    flex-direction: column;
+    align-items: center;
+    background-color: darkgray;
+}
+.lsrPart {
+    display: flex;
 }
 .lsrImgText {
     display: flex;
