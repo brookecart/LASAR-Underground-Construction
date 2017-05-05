@@ -10,52 +10,22 @@
      <link rel="shortcut icon" type="image/x-icon" href="cone.png" />
      <link href="https://fonts.googleapis.com/css?family=Teko" rel="stylesheet">
    </head>
-       <body class="lsr-body">
-        <div class="large-3 columns">
-         <a href="index.html">
-             </a>
-     </div>     
-     <div class="top-bar lsr-nav" style="background-color: #FBA100">
-       <div class="top-bar-left">
-         <ul class="dropdown menu" data-dropdown-menu style="background-color: #6BBAA7;">
-           <li>
-             <a href="proCat.php" style="color: white;">Categories</a>
-             <ul class="menu vertical" style="background-color: #6BBAA7;" href="proCat.php">
-               <li><a href="catspace.php" style="color: white;">Space Jam</a></li>
-               <li><a href="catacc.php" style="color: white;">Accessories</a></li>
-               <li><a href="catcloth.php" style="color: white;">Clothes</a></li>
-               <li><a href="cathome.php" style="color: white;">Home/ Decor</a></li>
-             </ul>
-           </li>
-           <li><a href="about.php" style="color: white;">About</a></li>
-           <li><a href="contact.php" style="color: white;">Contact</a></li>
-         </ul>
-       </div>
-       <div class="top-bar-right">
-         <ul class="dropdown menu" data-dropdown-menu style="background-color: #6BBAA7;">
-           <li>
-             <a href="cart.php" style="color: white;">Cart</a>
-           </li>
-         </ul>
-       </div>
-     </div>
-     <div class="lsr-over">
-     <div class="wrapper large-7 lsr-wrapper">
-        <div class=".position-left column small-5">
+    
+     <div class="wrapper">
+        <div class=".position-left column">
          <form action="form.php" method="get">
            
              <div class="row">
-                 <label for="Firstname" class="column small-5">
+                 <label for="Firstname" class="column small-6">
                      <h5>First Name</h5>
+                        <input type="text" name="FirstName" class="column small-5">
                  </label>
-                <input type="text" name="FirstName" class="column small-5"> 
-             </div>
-                <!-- function of this item -->
-             <div class="row">
-                 <label for="Lastname" class="column small-5">
+                 
+            
+                 <label for="Lastname" class="column small-6">
                      <h5>Last Name</h5>
-                 </label>
                 <input type="text" name="LastName" class="column small-5"> 
+                </label>
              </div>
              
              <div class="row">
@@ -85,7 +55,6 @@
                  <input type="submit">
               </div>
          </form>
-         </div>
          </div>
          </div>
      </body>

@@ -1,4 +1,5 @@
-<?php
+
+           <?php
             require('navbar.php') //Head
         ?>   
 </body>
