@@ -1,17 +1,16 @@
-.lsr-body {
-    //background-color:skyblue;
+.lsrBody {
+    background-color:skyblue;
 }
-.lsr-wrapper {
-    //background-color:white;
+.lsrWrapper {
+    background-color:white;
 }
-.lsr-nav {
-    //background-color:#FBA100;
+.lsrNav {
+    background-color:#FBA100;
 }
-.lsr-over {
-    //display: flex;
-    //justify-content: center;
+.lsrOver {
+    
 }
-.lsr-imgText {
+.lsrImgText {
     display: flex;
     height: 20rem;
 }
