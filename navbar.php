@@ -17,10 +17,14 @@
             </a>
     </div>     
     <?php 
-        function imgText($imgSrc, $imgSize, $lsrText) { //function to make an image with text next to it
-            echo "<div class='row $imgSize lsrImgText'>".
-                "<img src='$imgSrc' class='column large-8'></img>".
-                "<p class='column'>$lsrText".
+        function imgText($imgSrc, $imgSize, $lsrText, $txtSize) { //function to make an image with text next to it
+            echo "<div class='row lsrPart'>".
+                    "<div class='column $imgSize'>".
+                        "<img src='$imgSrc' class=''></img>".
+                    "</div>".
+                    "<div class='column $txtSize'>".
+                        "<p>$lsrText</p>".
+                    "</div>".
                 "</div>";
         }
     // Example for usage: imgText("Images/IMG_1602.jpeg","Lorem Ipsum");
