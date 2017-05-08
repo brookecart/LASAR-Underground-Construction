@@ -1,6 +1,5 @@
 <?php require('navbar.php');?>
-<br>
-<div class="lsrWrapper column"> 
+<div class="page-padding lsrWrapper column">
     <div class="row">
         <?php 
             echo "<h1>Projects</h1>".
@@ -17,5 +16,4 @@
         ?>
     </div>
 </div>
-</body>
-</html>
+<?php require('footer.php');?>

@@ -77,9 +77,3 @@
 <?php require('footer.php');?>
     
    <!-- == END BODY HTML CONTENT ==-->
-
-    <script src="js/app.js"></script>
-    <script src="js/materialize.js"></script>
-    <script src="js/materialize.min.js"></script>
-</body>
-</html>
