@@ -12,16 +12,12 @@
 <body>
    <?php 
         function imgText($imgSrc, $imgSize, $lsrText) { //function to make an image with text next to it
-            echo "<div class='row lsrPart'>".
-                    "<div class='column $imgSize'>".
-                        "<img src='$imgSrc' class=''></img>".
-                    "</div>".
-                    "<div class='column'>".
-                        "<p>$lsrText</p>".
-                    "</div>".
-                 "</div>";
+            echo "<div class='row $imgSize lsrImgText'>".
+                "<img src='$imgSrc' class='column large-8'></img>".
+                "<p class='column'>$lsrText".
+                "</div>";
         }
-    // Example for usage: imgText("Images/IMG_1602.jpeg", "small-5", "Lorem Ipsum");
+    // Example for usage: imgText("Images/IMG_1602.jpeg","Lorem Ipsum");
     // make sure it's in php
     imgText("Images/IMG_1602.jpeg", "small-5", "Lorem Ipsum");
     ?>
