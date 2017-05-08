@@ -20,7 +20,7 @@
             } 
         ?>    
           <nav>
-    <div class="nav-wrapper">
+    <div class="nav-wrapper green darken-3">
         
       <a href="index.php" class="brand-logo">LASAR Underground Construction Inc.</a>
       <ul id="nav-mobile" class="right hide-on-med-and-down">
@@ -29,8 +29,8 @@
         <li><a href="about.php">About us</a></li>
         <li><a href="Contacts.php">Contact</a></li>
         <li class="projects">
-            <a href="Projects.php" class="dropbuttonfam">Projects</a>
-            <div class="projectfrank">
+            <a href="Projects.php" class="dropbuttonfam">Services</a>
+            <div class="projectfrank green darken-3">
                 <a href="#">AT&#38;T</a>
                 <a href="#">PG&#38;E</a>
                 <a href="#">Comcast</a>
