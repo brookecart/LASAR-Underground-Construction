@@ -1,18 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/foundation.css">
-    <link rel="stylesheet" href="css/foundation.min.css">
-    <link rel="stylesheet" href="css/materialize.css">
-    <link rel="stylesheet" href="css/app.css">
-    <link rel="stylesheet" href="css/materialize.min.css">
-    <title>LASAR</title>
-</head>
-
-<body>
-<?php require('navbar.php');?> 
+<?php require('navbar.php');?>
     <!--== BODY HTML CONTENT ==-->
     
     <div class="expanded row">

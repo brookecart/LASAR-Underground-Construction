@@ -1,12 +1,13 @@
-<!doctype html>
-<html>
-    <head>
+<!DOCTYPE html>
+<html lang="en">
+<head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
     <link rel="stylesheet" href="css/materialize.css">
     <link rel="stylesheet" href="css/app.css">
-    <link rel="stylesheet" href="css/materialize.min.css"></head>
+    <link rel="stylesheet" href="css/materialize.min.css">
+    <title>LASAR</title>
+</head>
    <body>    
           <nav>
     <div class="nav-wrapper">
@@ -20,8 +21,8 @@
         <li class="projects">
             <a href="#" class="dropbuttonfam">Projects</a>
             <div class="projectfrank">
-                <a href="#">AT&T</a>
-                <a href="#">PG&E</a>
+                <a href="#">AT&#38;T</a>
+                <a href="#">PG&#38;E</a>
                 <a href="#">Comcast</a>
             </div>
             </li>
@@ -31,8 +32,3 @@
         </ul>
     </div>
   </nav>
-    <script src="js/app.js"></script>
-    <script src="js/materialize.js"></script>
-    <script src="js/materialize.min.js"></script>
-    </body>
-</html>
