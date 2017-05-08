@@ -50,7 +50,7 @@ footer a {
 }
 .nav-wrapper {
     z-index: 0;
-    background-color: #00BCD4;
+    background-color: #43a047;
 }
 .nav-wrapper li a {
     display: inline-flex;
@@ -78,7 +78,6 @@ footer a {
     max-width: 102px;
     margin-top:0px;
     position:absolute;
-    background-color:#00BCD4;
     z-index: 1;
 
 }

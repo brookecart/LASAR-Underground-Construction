@@ -1,4 +1,4 @@
-<div id="footer" style="padding: 50px; background-color: #00BCD4;">
+<div id="footer" class="page-footer" style="padding: 50px; background-color: #00BCD4;">
     <div class="expanded row">
         <div class="large-3 columns">
             <i class="fa fa-copyright" aria-hidden="true" style="color: white;"> LASAR Underground Construction</i>
@@ -29,4 +29,10 @@
         
 
     </div>
+    <div class="footer-copyright">
+            <div class="container">
+            © 2017 LASAR Inc.
+            <a class="grey-text text-lighten-4 right" href="#!">More Links</a>
+            </div>
+          </div>
     </div>
