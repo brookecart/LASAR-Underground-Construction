@@ -6,9 +6,9 @@
                 <h2>Send a Message</h2>
             <?php require('msgform.php');?>
             </div>
-            <div class="small-1"></div>
+            <div class="small-1 column"></div>
             <div class="row lsrPart column">
-                <div class="column">
+                <div class="row">
                     <?php
                         function location($location, $mapSize, $lsrText, $txtSize) {
                          echo "<div class='row $mapSize'>".
@@ -29,10 +29,15 @@
         </div> 
         <br>
         <div class="row">
-                <a class="button column lsrBorder large-6" href="https://www.facebook.com/Lasarunderground/?hc_ref=SEARCH&fref=nf">
-                    <h4>Check out our FaceBook!</h4>
-                    </a>
-                </div>
+            <a class="button column lsrBorder large-4" href="https://www.facebook.com/Lasarunderground/?hc_ref=SEARCH&fref=nf">
+                <h4>Check out our FaceBook!</h4>
+            </a>
+            <a class="button column lsrBorder large-4" href="#">
+                       <br>
+                        <h4>Request a job</h4>
+                    <br> <br>    
+            </a>
+        </div>
     </div>
 </body>
 </html>
