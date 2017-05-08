@@ -11,15 +11,15 @@
 </head>
 <body>
    <?php 
-        function imgText($imgSrc, $imgSize, $lsrText) { //function to make an image with text next to it
+        function imgText($imgSrc, $imgSize, $lsrText, $txtSize) { //function to make an image with text next to it
             echo "<div class='row $imgSize lsrImgText'>".
                 "<img src='$imgSrc' class='column large-8'></img>".
-                "<p class='column'>$lsrText".
+                "<p class='column $txtSize'>$lsrText</p>".
                 "</div>";
         }
     // Example for usage: imgText("Images/IMG_1602.jpeg","Lorem Ipsum");
     // make sure it's in php
-    imgText("Images/IMG_1602.jpeg", "small-5", "Lorem Ipsum");
+    imgText("Images/IMG_1602.jpeg", "small-5", "Lorem Ipsum", "");
     ?>
 </body>
 </html>

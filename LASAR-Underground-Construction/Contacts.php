@@ -1,6 +1,6 @@
 <?php require('navbar.php');?>
 <br>
-<div class="lsrWrapper column" >
+<div class="">
         <div class="row lsrPart">
             <div class="column large-10">
                 <h2>Send a Message</h2>
@@ -29,10 +29,10 @@
         </div> 
         <br>
         <div class="row">
-                <a class="button row lsrBorder" href="https://www.facebook.com/Lasarunderground/?hc_ref=SEARCH&fref=nf">
-                    <h5>Check out our FaceBook!</h5>
+                <a class="button column lsrBorder large-6" href="https://www.facebook.com/Lasarunderground/?hc_ref=SEARCH&fref=nf">
+                    <h4>Check out our FaceBook!</h4>
                     </a>
                 </div>
-            </div>
+    </div>
 </body>
 </html>

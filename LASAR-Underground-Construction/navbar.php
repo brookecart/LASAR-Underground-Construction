@@ -10,7 +10,15 @@
     <link rel="stylesheet" href="css/materialize.min.css">
     <title>LASAR</title>
 </head>
-   <body>    
+   <body>
+         <?php 
+            function imgText($boxSize, $imgSrc, $imgSize, $lsrText, $txtSize) { //function to make an image with text next to it
+                echo "<div class='row $boxSize lsrImgText'>".
+                    "<img src='$imgSrc' class='column $imgSize'></img>".
+                    "<p class='column $txtSize'>$lsrText</p>".
+                    "</div>";
+            } 
+        ?>    
           <nav>
     <div class="nav-wrapper">
         
