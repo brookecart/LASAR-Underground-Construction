@@ -1,0 +1,58 @@
+.lsrBody {
+    background-color:skyblue;
+}
+.lsrWrapper {
+    display: flex;
+    align-items: center;
+}
+.lsrNav {
+    background-color:#FBA100;
+}
+.lsrOver {
+    display: flex; 
+    flex-direction: column;
+    align-items: center;
+    background-color: darkgray;
+}
+.lsrPart {
+    display: flex;
+}
+.lsrImgText {
+    display: flex;
+    height: 20rem;
+}
+.aqua {
+    //background-color: #6BBAA7;
+}
+.menu {
+    border: 0px
+}
+footer {
+    background-color: #222;
+    padding: 80px 0px;
+}
+
+footer a {
+    display:block;
+}
+.li .a {
+    color:white;
+}
+@include top-bar-unstack;
+
+.title-bar {
+    color:white;
+}
+.nav-wrapper {
+    background-color: #00BCD4;
+}
+.nav-wrapper li a {
+    display: inline-flex;
+    justify-content: center;
+    color:white;
+    padding:16px;
+    font-size:20px;
+}
+.nav-wrapper .brand-logo {
+    margin-left:5%;
+}
