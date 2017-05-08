@@ -73,6 +73,8 @@
         </div>
     </div>
     </div>
+
+<?php require('footer.php');?>
     
    <!-- == END BODY HTML CONTENT ==-->
 
