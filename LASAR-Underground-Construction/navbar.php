@@ -27,8 +27,7 @@
                     "</div>".
                 "</div>";
         }
-    // Example for usage: imgText("Images/IMG_1602.jpeg","Lorem Ipsum");
-    // make sure it's in php
+    // make sure it's in <?php
     ?>
  <div class="top-bar">
   <div class="top-bar-left">
@@ -54,3 +53,15 @@
     </ul>
     </div>
   </div>
+          
+          <nav>
+    <div class="nav-wrapper">
+      <a href="#" class="brand-logo">LASAR Underground Construction Inc.</a>
+      <ul id="nav-mobile" class="right hide-on-med-and-down">
+        <li><a href="#">Apply now!</a></li>
+        <li><a href="#">About us</a></li>
+        <li><a href="#">Contact</a></li>
+        <li><a href="#">Projects</a></li>
+      </ul>
+    </div>
+  </nav>
