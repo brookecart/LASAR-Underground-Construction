@@ -25,11 +25,11 @@
       <a href="index.php" class="brand-logo">LASAR Underground Construction Inc.</a>
       <ul id="nav-mobile" class="right hide-on-med-and-down">
           <div class="navwappa">
-        <li><a href="#">Apply now!</a></li>
-        <li><a href="#">About us</a></li>
+        <li><a href="application.php">Apply now!</a></li>
+        <li><a href="about.php">About us</a></li>
         <li><a href="Contacts.php">Contact</a></li>
         <li class="projects">
-            <a href="#" class="dropbuttonfam">Projects</a>
+            <a href="Projects.php" class="dropbuttonfam">Projects</a>
             <div class="projectfrank">
                 <a href="#">AT&#38;T</a>
                 <a href="#">PG&#38;E</a>
