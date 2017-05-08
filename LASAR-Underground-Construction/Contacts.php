@@ -20,7 +20,7 @@
                         }
                     ?>
 
-                    <?php  location("<iframe src='https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12783.487837144074!2d-119.6919882!3d36.773639!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x3733227db16a15e!2sLasar+Construction!5e0!3m2!1sen!2sus!4v1494209808579' width='600' height='450' frameborder='0' style='border:0' allowfullscreen></iframe>", "", "<h5>Address:</h5> 2565 N Sunnyside Ave, 93727 Fresno, United States <br> <br> <h5>Phone Number:</h5> (559) 291-1024", "small-6");
+                    <?php  location("<iframe src='https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12783.487837144074!2d-119.6919882!3d36.773639!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x3733227db16a15e!2sLasar+Construction!5e0!3m2!1sen!2sus!4v1494209808579' width='600' height='450' frameborder='0' style='border:0' allowfullscreen></iframe>", "", "<h5>Address:</h5> 2565 N Sunnyside Ave, 93727 Fresno, United States <br> <h5>Phone Number:</h5> (559) 291-1024", "small-6");
 
                     ?>
                 </div>
