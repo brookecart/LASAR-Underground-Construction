@@ -1,67 +1,38 @@
 <!doctype html>
-<html class="no-js" lang="en" dir="ltr">
-  <head>
+<html>
+    <head>
     <meta charset="utf-8">
-    <meta http-equiv="x-ua-compatible" content="ie=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>LASAR Underground</title>
-    <link rel="stylesheet" href="css/foundation.css">
+
+    <link rel="stylesheet" href="css/materialize.css">
     <link rel="stylesheet" href="css/app.css">
-    <link rel="shortcut icon" type="image/x-icon" href="cone.png" />
-    <link href="https://fonts.googleapis.com/css?family=Teko" rel="stylesheet">  
-  </head>
-      <body class="lsr-body" style="background-color: #B6A19E">
-       <div class="large-3 columns">
-        <a href="index.php">
-        <!--<img rc="images/logo.png">-->
-            </a>
-    </div>     
-    <?php 
-        function imgText($imgSrc, $imgSize, $lsrText, $txtSize) { //function to make an image with text next to it
-            echo "<div class='row lsrPart'>".
-                    "<div class='column $imgSize'>".
-                        "<img src='$imgSrc' class=''></img>".
-                    "</div>".
-                    "<div class='column $txtSize'>".
-                        "<p>$lsrText</p>".
-                    "</div>".
-                "</div>";
-        }
-    // make sure it's in <?php
-    ?>
- <div class="top-bar">
-  <div class="top-bar-left">
-    <ul class="dropdown menu" data-dropdown-menu>
-      <li class="menu-text">Site Title</li>
-      <li>
-        <a href="accomplishments.php">Accomplishments</a>
-        <ul class="menu vertical">
-          <li><a href="catspace.php">AREA1</a></li>
-          <li><a href="catacc.php">AREA2</a></li>
-          <li><a href="catcloth.php">AREA3</a></li>
-        </ul>
-      </li>
-      <li><a href="about.php">About</a></li>
-      <li><a href="contact.php">Contact</a></li>
-    </ul>
-      </div>
-    <div class="top-bar-right">
-     <ul class="menu">
-      <li>
-        <a href="application.php">Apply</a>
-      </li>
-    </ul>
-    </div>
-  </div>
-          
+    <link rel="stylesheet" href="css/materialize.min.css"></head>
+   <body>    
           <nav>
     <div class="nav-wrapper">
-      <a href="#" class="brand-logo">LASAR Underground Construction Inc.</a>
+        
+      <a href="index.php" class="brand-logo">LASAR Underground Construction Inc.</a>
       <ul id="nav-mobile" class="right hide-on-med-and-down">
+          <div class="navwappa">
         <li><a href="#">Apply now!</a></li>
         <li><a href="#">About us</a></li>
-        <li><a href="#">Contact</a></li>
-        <li><a href="#">Projects</a></li>
-      </ul>
+        <li><a href="Contacts.php">Contact</a></li>
+        <li class="projects">
+            <a href="#" class="dropbuttonfam">Projects</a>
+            <div class="projectfrank">
+            <a href="#">AT&T</a>
+                <a href="#">PG&E</a>
+                <a href="#">Comcast</a>
+            </div>
+            </li>
+            
+          </div>
+          
+        </ul>
     </div>
   </nav>
+    <script src="js/app.js"></script>
+    <script src="js/materialize.js"></script>
+    <script src="js/materialize.min.js"></script>
+    </body>
+</html>

@@ -2,6 +2,8 @@
     background-color:skyblue;
 }
 .lsrWrapper {
+    display: flex;
+    align-items: center;
 }
 .lsrNav {
     background-color:#FBA100;
@@ -15,15 +17,8 @@
 .lsrPart {
     display: flex;
 }
-a {
-    color:black;
-} 
-.lsrBorder {
-    border-radius: 20px;
-    border-color: black;
-    border-width:thin;
-}
 .lsrImgText {
+    display: flex;
     height: 20rem;
 }
 .aqua {
@@ -49,15 +44,56 @@ footer a {
     color:white;
 }
 .nav-wrapper {
+    z-index: 0;
     background-color: #00BCD4;
 }
 .nav-wrapper li a {
     display: inline-flex;
     justify-content: center;
     color:white;
-    padding:16px;
     font-size:20px;
+    height:64px;
+    align-items: center;
+    z-index: 2;
 }
 .nav-wrapper .brand-logo {
     margin-left:5%;
+    font-family: Roboto;
+}
+.projectfrank {
+    display:none;
+    z-index: 1;
+}
+
+.projects:hover .projectfrank {
+    display:flex;
+    flex-direction: column;
+    flex-flow: column;
+    position: relative;
+    max-width: 102px;
+    margin-top:0px;
+    position:absolute;
+    background-color:#00BCD4;
+    z-index: 1;
+
+}
+
+input-field col s6 {
+    size:6rem;
+}
+.validate {
+    text-decoration: none;
+}
+.wapper {
+    display:flex;
+    margin-left:12.5%;
+    border: none;
+    text-decoration: none;
+}
+.label {
+    border:none;
+}
+.orbit-image {
+    z-index: -1;
+    position: absolute;
 }
