@@ -21,6 +21,11 @@
     display: flex;
     height: 20rem;
 }
+.lsrBorder {
+    border-radius: 15px;
+    border-width: thin;
+    border-color: black;
+}
 .aqua {
     //background-color: #6BBAA7;
 }
