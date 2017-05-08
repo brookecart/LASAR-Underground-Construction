@@ -2,13 +2,11 @@
     background-color:skyblue;
 }
 .lsrWrapper {
-    display: flex;
-    align-items: center;
 }
-.lsrNav {
+.lsrNav {  
     background-color:#FBA100;
 }
-.lsrOver {
+.lsrOver { 
     display: flex; 
     flex-direction: column;
     align-items: center;
@@ -16,6 +14,14 @@
 }
 .lsrPart {
     display: flex;
+}
+a {
+    color:black;
+} 
+.lsrBorder {
+    border-radius: 20px;
+    border-color: black;
+    border-width:thin;
 }
 .lsrImgText {
     height: 20rem;
