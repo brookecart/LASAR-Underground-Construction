@@ -1,6 +1,5 @@
 <?php require('navbar.php');?>
     <!--== BODY HTML CONTENT ==-->
-    
     <div class="expanded row">
         
         <ul class="orbit-container" style="height: 800px;">
