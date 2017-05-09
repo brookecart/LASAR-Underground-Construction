@@ -36,3 +36,9 @@
             </div>
           </div>
     </div>
+
+    <script src="js/app.js"></script>
+    <script src="js/materialize.js"></script>
+    <script src="js/materialize.min.js"></script>
+    </body>
+</html>
