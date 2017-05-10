@@ -1,7 +1,7 @@
 <?php require('navbar.php');?>
 <br>
 <div class="lsrWrapper column"> 
-    <div class="row">
+    <div class="row large-5">
        <h1>Services</h1>
         <ul class="collapsible" data-collapsible="accordion">
             <li>

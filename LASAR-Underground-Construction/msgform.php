@@ -12,7 +12,7 @@
 <link rel="stylesheet" href="css/materialize.min.css">
    </head>
     <body>
-     <div class="wapper">
+     <div class="wrapper">
         <div class=".position-left column">
          <form action="form.php" method="get">
            
