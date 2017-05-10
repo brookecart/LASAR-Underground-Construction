@@ -50,7 +50,9 @@
                    <div class="input-field col s12">
                  <textarea id="message" class="materialize-textarea" data-length="300"></textarea>
                     <label for="message">Message</label>
-                 <input type="submit">
+                  <button class="btn waves-effect waves-light center-align" type="submit" name="action" style="background-color: #2E7D32;">Submit
+                    <i class="material-icons right">send</i>
+                  </button>
               </div>
              </div>
          </form>

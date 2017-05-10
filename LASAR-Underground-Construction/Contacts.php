@@ -28,12 +28,5 @@
             
         </div> 
         <br>
-        <div class="row">
-            <a class="button column lsrBorder large-4" href="#">
-                       <br>
-                        <h4>Request a Bid</h4>
-                    <br> <br>    
-            </a>
-        </div>
     </div>
     <?php require('footer.php');?>
