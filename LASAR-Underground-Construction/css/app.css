@@ -97,3 +97,6 @@ input-field col s6 {
 .orbit-container {
     z-index: -1;
 }
+.navbar-inner, .navbar .btn-navbar {
+    border:0px;
+}
