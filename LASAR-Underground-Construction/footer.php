@@ -1,4 +1,4 @@
-<div id="footer" class="page-footer" style="padding: 50px; background-color: #00BCD4;">
+<div id="footer" class="page-footer" style="padding: 50px; background-color: #2E7D32;">
     <div class="expanded row">
         <div class="large-3 columns">
             <i class="fa fa-copyright" aria-hidden="true" style="color: white;"> LASAR Underground Construction</i>

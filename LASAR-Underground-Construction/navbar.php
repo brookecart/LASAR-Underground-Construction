@@ -29,13 +29,13 @@
         ?>
 
         <ul id="dropdown1" class="dropdown-content green darken-2">
-      <li><a href="Projects.php">AT&#38;T</a></li>
-      <li><a href="#!">PG&#38;E</a></li>
-      <li><a href="#!">Comcast</a></li>
+      <li><a class="white-text" href="Projects.php">AT&#38;T</a></li>
+      <li><a class="white-text" href="#!">PG&#38;E</a></li>
+      <li><a class="white-text" href="#!">Comcast</a></li>
         </ul>
 
     <nav>
-        <div class="nav-wrapper green darken-3">
+        <div class="nav-wrapper green darken-3 z-depth-1">
         
       <a href="index.php" class="brand-logo hide-on-med-and-down">LASAR Underground Construction Inc.</a>
       <a href="index.php" class="brand-logo hide-on-large-only">LASAR</a>

@@ -50,9 +50,6 @@ footer {
 footer a {
     display:block;
 }
-.li .a {
-    color:white;
-}
 @include top-bar-unstack;
 
 .title-bar {
@@ -107,7 +104,12 @@ input-field col s6 {
 .label {
     border:none;
 }
-.orbit-image {
+.orbit-container {
     z-index: -1;
-    position: absolute;
+}
+nav ul a:hover {
+    background-color: transparent;
+}
+.navbar-inner, .navbar .btn-navbar {
+    border:0px;
 }
