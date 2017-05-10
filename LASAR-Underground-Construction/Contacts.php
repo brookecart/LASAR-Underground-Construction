@@ -2,11 +2,11 @@
 <br>
 <div class="">
         <div class="row lsrPart">
-            <div class="column large-10">
-                <h2>Send a Message</h2>
+            <div class="column">
+                <h3>Send a Message</h3>
             <?php require('msgform.php');?>
             </div>
-            <div class="small-1 column"></div>
+            <div class="small-2 column"></div>
             <div class="row lsrPart column">
                 <div class="row">
                     <?php
@@ -29,18 +29,17 @@
         </div> 
         <br>
         <div class="row">
-            <a class="button column lsrBorder large-4" href="https://www.facebook.com/Lasarunderground/?hc_ref=SEARCH&fref=nf">
-                <h4>Check out our FaceBook!</h4>
-            </a>
             <a class="button column lsrBorder large-4" href="#">
                        <br>
-                        <h4>Request a job</h4>
+                        <h4>Request a Bid</h4>
                     <br> <br>    
             </a>
         </div>
     </div>
     <?php require('footer.php');?>
-
+    <script src="js/vendor/jquery.js"></script>
+    <script src="js/materialize.js"></script>
+    <script src="js/materialize.min.js"></script>
+    <script src="js/app.js"></script>
 </body>
 </html>
-
