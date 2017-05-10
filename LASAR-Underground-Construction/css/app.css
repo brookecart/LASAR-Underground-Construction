@@ -100,3 +100,10 @@ input-field col s6 {
 nav ul a:hover {
     background-color: transparent;
 }
+nav ul a li:hover {
+    background-color: #2e7d32; 
+}
+
+#dropdown1 li:hover {
+    background-color: #2e7d32;
+}
