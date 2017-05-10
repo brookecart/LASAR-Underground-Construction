@@ -21,6 +21,13 @@
     display: flex;
     height: 20rem;
 }
+.service-1 {
+    background-image:url(../Images/IMG_1564.jpeg);
+    background-repeat: no-repeat;
+    background-position:right;
+    height: 15rem;
+    text-shadow: 0px 3.2px 10px rgba(0, 0, 0, 0.84);
+}
 .lsrBorder {
     border-radius: 15px;
     border-width: thin;
@@ -36,7 +43,10 @@ footer {
     background-color: #222;
     padding: 80px 0px;
 }
-
+.serviceTxt {
+    color: white;
+    font-size: 5rem;
+}
 footer a {
     display:block;
 }
