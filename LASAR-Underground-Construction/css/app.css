@@ -21,12 +21,22 @@
     display: flex;
     height: 20rem;
 }
+.service {
+    background-repeat: no-repeat;
+    height: 15rem;
+    text-shadow: 0px 3.2px 10px rgba(0, 0, 0, 0.84); 
+}
 .service-1 {
     background-image:url(../Images/IMG_1564.jpeg);
-    background-repeat: no-repeat;
     background-position:right;
-    height: 15rem;
-    text-shadow: 0px 3.2px 10px rgba(0, 0, 0, 0.84);
+}
+.service-2 {
+    background-image:url(../Images/IMG_1503.jpeg);
+    background-position:right;
+}
+.service-3 {
+    background-image:url(../Images/IMG_1559.jpeg);
+    background-position:right;
 }
 .lsrBorder {
     border-radius: 15px;
