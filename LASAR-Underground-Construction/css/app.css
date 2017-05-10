@@ -40,9 +40,6 @@ footer {
 footer a {
     display:block;
 }
-.li .a {
-    color:white;
-}
 @include top-bar-unstack;
 
 .title-bar {

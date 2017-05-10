@@ -13,49 +13,46 @@
    </head>
     <body>
      <div class="wrapper">
-        <div class=".position-left column">
+        <div class="row">
          <form action="form.php" method="get">
-           
-             <div class="row">
-                 <label for="Firstname" class="column small-6 lsrFlex">
-                     <h5>First Name</h5>
-                        <input type="text" name="FirstName" class="column small-5">
-                 </label>
+
+           <div class="row">
+                <div class="input-field col s6">
+                <input type="text" id="first-name" class="validate">
+                 <label for="first-name">First Name</label>
                  
-            
-                 <label for="Lastname" class="column small-6 lsrFlex">
-                     <h5>Last Name</h5>
-                <input type="text" name="LastName" class="column small-5"> 
-                </label>
+                 </div>
+                 <div class="input-field col s6">
+                <input type="text" id="last-name" class="validate">
+                 <label for="last-name">Last Name</label>
+               </div>
              </div>
              
              <div class="row">
-                  <label for="phone" class="column small-5">
-                      <h5>Phone Number</h5>
-                  </label>
-                  <input type="tel" name="phone" class="column small-5">
+                 <div class="input-field col s6">
+                  <input type="tel" id="phone">
+                  <label for="phone">Phone Number</label>
               </div>
+             </div>
               <div class="row">
-                  <label for="email" class="column small-5">
-                      <h5>Email</h5>
-                  </label>
-                  <input type="email" name="email" class="column small-5">
+                 <div class="input-field col s12">
+                  <input type="email" id="email">
+                  <label for="email" data-error="Invalid Email">Email</label>
               </div>
-              
+             </div>
               <div class="row">
-                  <label for="subj" class="column small-5">
-                      <h5>Subject</h5>
-                  </label>
-                  <input type="text" name="subj" class="column small-5">
+                 <div class="input-field col s12">
+                  <input type="text" id="subj">
+                  <label for="subj">Subject</label>
               </div>
+             </div>
               <div class="row">
-                    <label for="message" class="column small-5">
-                        <h5> Message </h5>
-                    </label>
-                 <textarea name="message" rows="10"></textarea>
+                   <div class="input-field col s12">
+                 <textarea id="message" class="materialize-textarea" data-length="300"></textarea>
+                    <label for="message">Message</label>
                  <input type="submit">
               </div>
+             </div>
          </form>
          </div>
          </div>
-     </body>
