@@ -1,14 +1,17 @@
 <?php require('navbar.php');?>
     <!--== BODY HTML CONTENT ==-->
     <div class="expanded row">
-        
+        <script>document.write("<ul class='orbit-container' style='height: " + window_size + ";'>")</script>
         <ul class="orbit-container" style="height: 800px;">
           <li class="orbit-slide is-active">
             <img class="orbit-image" src="img/IMG_1503.jpeg" alt="Space">
           </li>
         </ul>
     </div>
-    
+    <div class="fixed-action-btn">
+    <a class="btn-floating btn-large red">
+      <i class="large material-icons">trending_down</i>
+    </a></div>
     <div class="row">
         <div class="small-9 small-centered columns">
         <h1 class="text-center" style="padding: 50px;">LASAR Underground Construction</h1>
