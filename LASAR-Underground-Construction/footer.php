@@ -5,7 +5,7 @@
             <p style="color: white;">Designed and developed by CART Group 6</p>
         </div>
         
-        <div class="large-3 columns">
+        <div class="large-3 columns hide-on-med-and-down">
             <p style="color: white;">We proudly service some of the leading companies in the Fresno Area.</p>
             <ul style="color: white;">
                 <li>AT&amp;T Communications</li>
@@ -32,7 +32,6 @@
     <div class="footer-copyright">
             <div class="container">
             © 2017 LASAR Inc.
-            <a class="grey-text text-lighten-4 right" href="#!">More Links</a>
             </div>
           </div>
     </div>
