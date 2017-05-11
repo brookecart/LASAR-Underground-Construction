@@ -13,18 +13,18 @@
       <i class="large material-icons">trending_down</i>
     </a></div>
 
-    <div class="row center-align col">
+    <div class="row center-align col container">
         <h1 style="padding: 50px;">LASAR Underground Construction</h1>
     </div>
     
-    <div class="row">
+    <div class="row container">
         <div class="s12 col">
         <p>LASAR Underground Construction, Inc. is committed to deliver high quality service including contracting estimates, site preparation, construction, repair, and restoration for clients. We will strive to implement long term relationships with our clients based on safety, quality, timely service and anticipation of their needs. Our goal is to maintain the highest level of professional associates and customers. Together we are laying the foundation for communications.</p>
         </div>
     </div>
     
     <div style="padding-top: 70px; padding-bottom: 70px;">
-    <div class="row">
+    <div class="row container">
         <div class="s12 col">
             <h2>Services</h2>
         </div>
@@ -44,7 +44,7 @@
         
         <div style="padding: 20px;"></div>
         
-        <div class="row">
+        <div class="row container">
         <div class="s12 col">
             <h4>Solar Installation</h4>
         </div>
@@ -60,7 +60,7 @@
     
         <div style="padding: 20px;"></div>
     
-        <div class="row">
+        <div class="row container">
         
         <div class="s12 col">
             <h4>Recent Projects</h4>
