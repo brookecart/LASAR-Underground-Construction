@@ -14,23 +14,23 @@ $(document).ready(function(){
             hover: false
         });
     });
-// end of jQuery name space
-function alertSize() {
-  var myWidth = 0, myHeight = 0;
-  if( typeof( window.innerWidth ) == 'number' ) {
-    //Non-IE
-    myWidth = window.innerWidth;
-    myHeight = window.innerHeight;
-  } else if( document.documentElement && ( document.documentElement.clientWidth || document.documentElement.clientHeight ) ) {
-    //IE 6+ in 'standards compliant mode'
-    myWidth = document.documentElement.clientWidth;
-    myHeight = document.documentElement.clientHeight;
-  } else if( document.body && ( document.body.clientWidth || document.body.clientHeight ) ) {
-    //IE 4 compatible
-    myWidth = document.body.clientWidth;
-    myHeight = document.body.clientHeight;
-  }
-  window.alert( 'Width = ' + myWidth );
-  window.alert( 'Height = ' + myHeight );
-}
-var window_size = $(window).height();
+
+
+/*
+function jqUpdateSize(){
+
+    var width = $(window).width();
+    var height = $(window).height();
+
+    $('#jqWidth').html(width);
+    $('#jqHeight').html(height);
+    $("div.homeimg").height(height);
+    $("div.homeimg").width(width);
+};
+$(document).ready(jqUpdateSize);
+$(window).resize(jqUpdateSize);
+
+
+^^^ FAILED THING I WAS DOING
+
+*/
