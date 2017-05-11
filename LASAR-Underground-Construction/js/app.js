@@ -14,5 +14,23 @@ $(document).ready(function(){
             hover: false
         });
     });
-// end of jQuery name space
 
+
+/*
+function jqUpdateSize(){
+
+    var width = $(window).width();
+    var height = $(window).height();
+
+    $('#jqWidth').html(width);
+    $('#jqHeight').html(height);
+    $("div.homeimg").height(height);
+    $("div.homeimg").width(width);
+};
+$(document).ready(jqUpdateSize);
+$(window).resize(jqUpdateSize);
+
+
+^^^ FAILED THING I WAS DOING
+
+*/

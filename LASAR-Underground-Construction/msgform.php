@@ -29,7 +29,7 @@
              </div>
              
              <div class="row">
-                 <div class="input-field col s6">
+                 <div class="input-field col s12">
                   <input type="tel" id="phone">
                   <label for="phone">Phone Number</label>
               </div>
