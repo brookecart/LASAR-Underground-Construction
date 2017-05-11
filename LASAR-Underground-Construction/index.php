@@ -1,7 +1,6 @@
 <?php require('navbar.php');?>
     <!--== BODY HTML CONTENT ==-->
     <div class="expanded row">
-        <script>document.write("<ul class='orbit-container' style='height: " + window_size + ";'>")</script>
         <ul class="orbit-container" style="height: 800px;">
           <li class="orbit-slide is-active">
             <img class="orbit-image" src="img/IMG_1503.jpeg" alt="Space">
