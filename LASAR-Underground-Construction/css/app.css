@@ -35,7 +35,7 @@
     background-position:right;
 }
 .service-3 {
-    background-image:url(../Images/IMG_1454.jpeg);
+    background-image:url(../Images/IMG_1481.jpeg);
     background-position:left;
 }
 .lsrBorder {
@@ -45,6 +45,7 @@
 }
 .aqua {
     //background-color: #6BBAA7;
+    
 }
 .menu {
     border: 0px
@@ -56,6 +57,7 @@ footer {
 .serviceTxt {
     color: white;
     font-size: 5rem;
+    margin:0; 
 }
 footer a {
     display:block;
