@@ -5,7 +5,7 @@
        <h1>Services</h1>
         <ul class="collapsible grey lighten-3" data-collapsible="accordion">
             <li>
-              <div class="collapsible-header service-1"><i class="material-icons"></i><h1 class="serviceTxt">Wiring</h1></div>
+              <div class="collapsible-header service service-1"><i class="material-icons"></i><h1 class="serviceTxt">Wiring</h1></div>
               <div class="collapsible-body">
                   <span>
                       <?php imgText("","Images/IMG_1602.jpeg", "large-7",
@@ -15,7 +15,7 @@
               </div>
             </li>
             <li>
-              <div class="collapsible-header service-1"><i class="material-icons"></i><h2 class="serviceTxt">Solar</h2></div>
+              <div class="collapsible-header service service-2"><i class="material-icons"></i><h2 class="serviceTxt">Solar</h2></div>
               <div class="collapsible-body">
                   <span>
                       <?php imgText("","Images/IMG_1602.jpeg", "large-7",
@@ -25,7 +25,7 @@
               </div>
             </li>
             <li>
-              <div class="collapsible-header service-1"><i class="material-icons"></i><h2 class="serviceTxt">Solar</h2></div>
+              <div class="collapsible-header service service-3"><i class="material-icons"></i><h2 class="serviceTxt">Solar</h2></div>
               <div class="collapsible-body">
                   <span>
                       <?php imgText("","Images/IMG_1602.jpeg", "large-7",
