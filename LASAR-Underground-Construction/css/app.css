@@ -27,15 +27,15 @@
     text-shadow: 0px 3.2px 10px rgba(0, 0, 0, 0.84); 
 }
 .service-1 {
-    background-image:url(../Images/IMG_1564.jpeg);
+    background-image:url(../Img/IMG_1564.jpeg);
     background-position:right;
 }
 .service-2 {
-    background-image:url(../Images/IMG_1503.jpeg);
+    background-image:url(../Img/IMG_1503.jpeg);
     background-position:right;
 }
 .service-3 {
-    background-image:url(../Images/IMG_1481.jpeg);
+    background-image:url(../Img/IMG_1481.jpeg);
     background-position:left;
 }
 .lsrBorder {
