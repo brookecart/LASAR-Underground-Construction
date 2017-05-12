@@ -18,11 +18,6 @@
                         <h5>Phone Number:</h5>
                         <p>(559) 291-1024</p>
                     </div>
-                    <div class="row">
-                        <a class="column lsrBorder small-4 green darken-3" href="BID.php">
-                            <h5 style="color:white;">Request a Bid</h5>
-                        </a>
-                    </div>
                 </div>
             </div>
             

@@ -139,3 +139,8 @@ nav ul a li:hover {
 .navbar-inner, .navbar .btn-navbar {
     border:0px;
 }
+.no-b {
+    border-top: none;
+    border-right: none;
+    border-left: none;
+}
