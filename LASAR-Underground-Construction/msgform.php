@@ -29,15 +29,9 @@
              </div>
              
              <div class="row">
-<<<<<<< HEAD
-                 <div class="input-field col s6">
-                  <input type="tel" id="phone">
-                  <label for="phone">Phone Number</label>
-=======
                  <div class="input-field col s12">
                   <input type="tel" id="phone">
                   <label for="phone">Phone Number</label>
->>>>>>> origin/master
               </div>
              </div>
               <div class="row">
