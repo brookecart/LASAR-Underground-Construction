@@ -19,8 +19,9 @@
 </head>
    <body>
          <?php 
-            function imgText($boxSize, $imgSrc, $imgSize, $lsrText, $txtSize) { //function to make an image with text next to it
-                echo "<div class='row $boxSize lsrImgText'>".
+            function imgText($boxSize, $imgSrc, $imgSize, $lsrText, $txtSize) {
+                //function to make an image with text next to it
+                echo "<div class='$boxSize lsrImgText'>".
                     "<img src='$imgSrc' class='column $imgSize'></img>".
                     "<p class='column $txtSize'>$lsrText</p>".
                     "</div>";
