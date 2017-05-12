@@ -20,16 +20,16 @@
             function imgText($boxSize, $imgSrc, $imgSize, $lsrText, $txtSize) {
                 //function to make an image with text next to it
                 echo "<div class='$boxSize lsrImgText'>".
-                    "<img src='$imgSrc' class='column $imgSize'></img>".
-                    "<p class='column $txtSize'>$lsrText</p>".
+                    "<img src='$imgSrc' class='col $imgSize'></img>".
+                    "<p class='col $txtSize'>$lsrText</p>".
                     "</div>";
             } 
         ?>
 
         <ul id="dropdown1" class="dropdown-content green darken-2">
-      <li><a class="white-text" href="Projects.php">AT&#38;T</a></li>
-      <li><a class="white-text" href="#!">PG&#38;E</a></li>
-      <li><a class="white-text" href="#!">Comcast</a></li>
+      <li><a class="white-text" href="Services.php#wiring">Wiring</a></li>
+      <li><a class="white-text" href="Services.php#solar">Solar</a></li>
+      <li><a class="white-text" href="Services.php#other">Other</a></li>
         </ul>
 
     <nav>

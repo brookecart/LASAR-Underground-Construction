@@ -19,7 +19,7 @@
         }
     // Example for usage: imgText("Images/IMG_1602.jpeg","Lorem Ipsum");
     // make sure it's in php
-    imgText("Images/IMG_1602.jpeg", "small-5", "Lorem Ipsum", "");
+    imgText("Img/IMG_1602.jpeg", "small-5", "Lorem Ipsum", "");
     ?>
 </body>
 </html>

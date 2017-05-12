@@ -8,7 +8,7 @@
                 <div class="input-field col s3">
                 <input type="text" id="first-name" class="validate no-b">
                  <label for="first-name">First Name</label>
-                 
+
                  </div>
                  <div class="input-field col s3">
                 <input type="text" id="last-name" class="validate no-b">
@@ -58,7 +58,9 @@
               </div>
              </div>
              <div class="row">
-                 <input type="submit" class="button lsrBorder green darken-3" style="font-size:18px;">
+                 <button class="btn waves-effect waves-light green darken-3" type="submit" name="action">Submit
+                    <i class="material-icons right">send</i>
+                  </button>
              </div>
          </form>
          </div>

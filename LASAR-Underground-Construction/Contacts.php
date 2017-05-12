@@ -1,15 +1,14 @@
 <?php require('navbar.php');?>
 <br>
-<div class="">
-        <div class="row">
-            <div class="col">
+        <div class="container" style="padding: 70px;">
+            <div class="row">
+                <div class="col s5">
                 <h3>Send a Message</h3>
-            <?php require('msgform.php');?>
-            </div>
-            <div class="s2 col"></div>
-            <div class="row col">
-                <div class="row hide-on-med-and-down">
-                    <div class='row'>
+                <?php require('msgform.php');?>
+                </div>
+            <div class="col s2"></div>
+            <div class="col s5">
+                    <div class="row">
                         <iframe src='https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12783.487837144074!2d-119.6919882!3d36.773639!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x3733227db16a15e!2sLasar+Construction!5e0!3m2!1sen!2sus!4v1494209808579' width='600' height='450' frameborder='0' style='border:0' allowfullscreen></iframe>
                     </div>
                     <div class="row">
@@ -25,5 +24,4 @@
             </div>
         </div> 
         <br>
-    </div>
     <?php require('footer.php');?>
