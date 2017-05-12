@@ -50,7 +50,7 @@
 
                     <span class="card-title wow">Services</span>
 
-        <h5>We specialize in all of your underground service needs from installation to repaid. In addition to our contract fulfillment services, we offer:</h5>
+        <h6>We specialize in all of your underground service needs from installation to repaid. In addition to our contract fulfillment services, we offer:</h6>
 
         <ul style="padding-left: 20px;">
             <li>Trench Services</li>
@@ -72,7 +72,7 @@
     </div>
         </div>
 </div>
-</div>
+   <div style="padding: 20px;"></div>
     <?php require('footer.php');?>
      <script>$(document).ready(function(){
       $('.parallax').parallax();
