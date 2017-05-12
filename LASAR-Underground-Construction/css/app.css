@@ -21,17 +21,10 @@
     display: flex;
     height: 20rem;
 }
-.service-1 {
-    background-image:url(../Images/IMG_1564.jpeg);
-    background-repeat: no-repeat;
-    background-position:right;
-    height: 15rem;
-    text-shadow: 0px 3.2px 10px rgba(0, 0, 0, 0.84);
-}
 .service {
     background-repeat: no-repeat;
     height: 15rem;
-    text-shadow: 0px 3.2px 10px rgba(0, 0, 0, 0.84);
+    text-shadow: 0px 3.2px 10px rgba(0, 0, 0, 0.84); 
 }
 .service-1 {
     background-image:url(../Img/IMG_1564.jpeg);
@@ -52,7 +45,7 @@
 }
 .aqua {
     //background-color: #6BBAA7;
-
+    
 }
 .menu {
     border: 0px
@@ -64,7 +57,7 @@ footer {
 .serviceTxt {
     color: white;
     font-size: 5rem;
-    margin:0;
+    margin:0; 
 }
 footer a {
     display:block;
@@ -129,13 +122,10 @@ input-field col s6 {
 nav ul a:hover {
     background-color: transparent;
 }
-nav ul a li:hover {
-    background-color: #2e7d32; 
-}
-
-#dropdown1 li:hover {
-    background-color: #2e7d32;
-}
 .navbar-inner, .navbar .btn-navbar {
     border:0px;
+}
+.parallax-container {
+    z-index: -1;
+    margin: 0;
 }

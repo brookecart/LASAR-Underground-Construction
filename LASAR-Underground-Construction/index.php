@@ -1,12 +1,10 @@
 <?php require('navbar.php');?>
     <!--== BODY HTML CONTENT ==-->
-    <div class="expanded row">
-        <ul class="orbit-container" style="height: 800px;">
-          <li class="orbit-slide is-active">
-            <img class="orbit-image" src="img/IMG_1503.jpeg" alt="Space">
+        <ul class="parallax-container">
+          <li class="parallax">
+            <img src="img/IMG_1503.jpeg" alt="Space">
           </li>
         </ul>
-    </div>
 
     <div class="fixed-action-btn">
     <a class="btn-floating btn-large red">
@@ -77,5 +75,8 @@
     </div>
 
 <?php require('footer.php');?>
+   <script>$(document).ready(function(){
+      $('.parallax').parallax();
+    });</script>
     
    <!-- == END BODY HTML CONTENT ==-->
