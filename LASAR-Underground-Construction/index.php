@@ -1,10 +1,10 @@
 <?php require('navbar.php');?>
     <!--== BODY HTML CONTENT ==-->
-        <ul class="parallax-container">
-          <li class="parallax">
+        <div class="parallax-container">
+          <div class="parallax">
             <img src="img/IMG_1503.jpeg" alt="Space">
-          </li>
-        </ul>
+          </div>
+        </div>
 
     <div class="fixed-action-btn">
     <a class="btn-floating btn-large red">
@@ -27,6 +27,23 @@
             <h2>Services</h2>
         </div>
         
+         <div class="col s12 m7">
+    <h2 class="header">Underground Wiring</h2>
+    <div class="card horizontal">
+      <div class="card-image">
+        <img src="http://lorempixel.com/100/190/nature/6">
+      </div>
+      <div class="card-stacked">
+        <div class="card-content">
+          <p>Nam ac justo in arcu vehicula sagittis eget et nulla. Donec varius purus nisi, ac egestas turpis fermentum non. Fusce feugiat volutpat ligula ac vulputate. Donec purus ex, imperdiet ac aliquam nec, blandit non velit. In hac habitasse platea dictumst. Interdum et malesuada fames ac ante ipsum primis in faucibus. Suspendisse sagittis pellentesque ultricies. Nullam egestas risus nec nunc tristique suscipit. Nullam at ligula nunc. Suspendisse potenti. Nulla a feugiat diam.</p>
+        </div>
+        <div class="card-action">
+          <a href="#">This is a link</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
         <div class="s12 col">
             <h4>Underground Wiring</h4>
         </div>
