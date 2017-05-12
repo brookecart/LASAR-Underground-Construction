@@ -27,9 +27,9 @@
         ?>
 
         <ul id="dropdown1" class="dropdown-content green darken-2">
-      <li><a class="white-text" href="Projects.php">AT&#38;T</a></li>
-      <li><a class="white-text" href="#!">PG&#38;E</a></li>
-      <li><a class="white-text" href="#!">Comcast</a></li>
+      <li><a class="white-text" href="Services.php#wiring">Wiring</a></li>
+      <li><a class="white-text" href="Services.php#solar">Solar</a></li>
+      <li><a class="white-text" href="Services.php#other">Other</a></li>
         </ul>
 
     <nav>
