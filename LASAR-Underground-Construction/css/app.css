@@ -21,13 +21,6 @@
     display: flex;
     height: 20rem;
 }
-.service-1 {
-    background-image:url(../Images/IMG_1564.jpeg);
-    background-repeat: no-repeat;
-    background-position:right;
-    height: 15rem;
-    text-shadow: 0px 3.2px 10px rgba(0, 0, 0, 0.84);
-}
 .service {
     background-repeat: no-repeat;
     height: 15rem;
@@ -129,13 +122,15 @@ input-field col s6 {
 nav ul a:hover {
     background-color: transparent;
 }
-nav ul a li:hover {
-    background-color: #2e7d32; 
-}
-
-#dropdown1 li:hover {
-    background-color: #2e7d32;
-}
 .navbar-inner, .navbar .btn-navbar {
     border:0px;
+}
+.no-b {
+    border-top: none;
+    border-right: none;
+    border-left: none;
+}
+.parallax-container {
+    z-index: -1;
+    margin: 0;
 }
