@@ -20,8 +20,8 @@
             function imgText($boxSize, $imgSrc, $imgSize, $lsrText, $txtSize) {
                 //function to make an image with text next to it
                 echo "<div class='$boxSize lsrImgText'>".
-                    "<img src='$imgSrc' class='column $imgSize'></img>".
-                    "<p class='column $txtSize'>$lsrText</p>".
+                    "<img src='$imgSrc' class='col $imgSize'></img>".
+                    "<p class='col $txtSize'>$lsrText</p>".
                     "</div>";
             } 
         ?>
