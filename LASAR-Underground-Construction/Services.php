@@ -1,10 +1,10 @@
 <?php require('navbar.php');?>
 <br>
     <div class="row large-6">
-       <h1 style="font-size:100px;">Services</h1>
+       <h1 style="font-size:90px;">Services</h1>
         <ul class="collapsible green darken-3" data-collapsible="accordion" >
             <li>
-              <div class="collapsible-header service service-1"><i class="material-icons"></i><h1 class="serviceTxt">Wiring</h1></div>
+              <div id="wiring" class="collapsible-header service service-1"><i class="material-icons"></i><h1 class="serviceTxt">Wiring</h1></div>
               <div class="collapsible-body">
                   <span>
                     <div class="z-depth-5" style="background-color:white; padding-top:15px; padding-bottom:15px;">
@@ -14,7 +14,7 @@
               </div>
             </li>
             <li>
-              <div class="collapsible-header service service-2"><i class="material-icons"></i><h2 class="serviceTxt">Solar</h2></div>
+              <div id="solar" class="collapsible-header service service-2"><i class="material-icons"></i><h2 class="serviceTxt">Solar</h2></div>
               <div class="collapsible-body">
                   <span>
                      <div class="z-depth-5" style="background-color:white; padding-top:15px; padding-bottom:15px;">
@@ -24,7 +24,7 @@
               </div>
             </li>
             <li>
-              <div class="collapsible-header service service-3"><i class="material-icons"></i><h2 class="serviceTxt">Solar</h2></div>
+              <div id="other" class="collapsible-header service service-3"><i class="material-icons"></i><h2 class="serviceTxt">Other</h2></div>
               <div class="collapsible-body">
                   <span>
                       <div class="z-depth-5" style="background-color:white; padding-top:15px; padding-bottom:15px;">
