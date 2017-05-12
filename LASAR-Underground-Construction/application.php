@@ -1,9 +1,15 @@
 <?php require('navbar.php')?>
 
+<div class="parallax-container" style="width: 100%">
+          <div class="parallax">
+            <img src="img/100_1403.jpeg" alt="Space">
+          </div>
+</div>
+
     <!--== BODY HTML CONTENT ==-->
         <div class="row large-" style="margin-top:15px;">
          <form action="form.php" method="get">
-            <h1 style="font-size:60px;">Job Application</h1>
+            <h1 class="center-align" style="font-size:60px;">Job Application</h1>
            <div class="row">
                 <div class="input-field col s3">
                 <input type="text" id="first-name" class="validate no-b">
@@ -66,3 +72,6 @@
          </div>
 
 <?php require('footer.php');?>
+   <script>$(document).ready(function(){
+      $('.parallax').parallax();
+    });</script>
