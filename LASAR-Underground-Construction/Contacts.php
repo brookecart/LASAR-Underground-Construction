@@ -28,9 +28,5 @@
             
         </div> 
         <br>
-<<<<<<< HEAD
-=======
-
->>>>>>> origin/master
     </div>
     <?php require('footer.php');?>
