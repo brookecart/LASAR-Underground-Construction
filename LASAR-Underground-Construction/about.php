@@ -1,14 +1,22 @@
 <?php require('navbar.php');?>
 
-    <!--== ABOUT PAGE CONTENT ==-->
-    <div class="page-padding" style="padding-top: 70px; padding-bottom: 70px;">
+    <div class="parallax-container">
+        <div class="parallax">
+            <img src="img/IMG_1564.jpeg" alt="Space">
+        </div>
+    </div>
 
+    <div class="row center-align col container">
+        <h1 style="padding: 50px;">About Our Company</h1>
+    </div>
+
+    <!--== ABOUT PAGE CONTENT ==-->
     <div class="row container">
         <div class="col s12">
     <div class="card">
 
-    <div class="card-image waves-effect waves-block waves-light" style="height:50%;">
-      <img class="activator" src="img/100_1251.jpeg">
+    <div class="card-image waves-effect waves-block waves-light" style="width:50%; height: 25%">
+      <img class="activator" src="img/IMG_1404.jpeg">
     </div>
 
     <div class="card-content">
@@ -87,4 +95,7 @@
 </div>
 </div>
     <?php require('footer.php');?>
+     <script>$(document).ready(function(){
+      $('.parallax').parallax();
+    });</script>
     <!--== END ABOUT PAGE CONTENT ==-->

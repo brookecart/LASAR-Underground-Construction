@@ -19,9 +19,7 @@
                         <p>(559) 291-1024</p>
                     </div>
                     <div class="row">
-                        <a class="column lsrBorder small-4 green darken-3" href="BID.php">
-                            <h5 style="color:white;">Request a Bid</h5>
-                        </a>
+                        <a class="waves-effect waves-light btn-large green darken-3" href="BID.php">Request a Bid</a>
                     </div>
                 </div>
             </div>
