@@ -1,7 +1,7 @@
 <?php require('navbar.php')?>
 
     <!--== BODY HTML CONTENT ==-->
-        <div class="row large-" style="margin-top:15px;">
+        <div class="container" style="margin-top:15px;">
          <form action="form.php" method="get">
             <h1 style="font-size:60px;">Job Application</h1>
            <div class="row">
