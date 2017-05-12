@@ -20,7 +20,7 @@
                     </div>
                     <div class="row">
                         <a class="column lsrBorder small-4 green darken-3" href="BID.php">
-                            <h5 style="color:white;">Request a Bid</h1>
+                            <h5 style="color:white;">Request a Bid</h5>
                         </a>
                     </div>
                 </div>
