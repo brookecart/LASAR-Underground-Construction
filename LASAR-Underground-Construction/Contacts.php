@@ -25,9 +25,7 @@
                     </div>
                 </div>
             </div>
-            
         </div> 
         <br>
-        
     </div>
     <?php require('footer.php');?>

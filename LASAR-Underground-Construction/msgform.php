@@ -50,7 +50,10 @@
                    <div class="input-field col s12">
                  <textarea id="message" class="materialize-textarea" data-length="300"></textarea>
                     <label for="message">Message</label>
-                 <input type="submit">
+                 <input id="submit" type="submit" class="lsrBorder green darken-3" style="font-size:18px; color: white;">
+                 <a class="column lsrBorder small-4 green darken-3" href="BID.php">
+                        <h5 style="color:white;">Request a Bid</h1>
+                </a>
               </div>
              </div>
          </form>

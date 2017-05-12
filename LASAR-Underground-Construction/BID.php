@@ -39,6 +39,9 @@
                     <label for="jobDesc">Bid Description</label>
               </div>
              </div>
+             <div class="row">
+                 <input type="submit" class="button lsrBorder green darken-3" style="font-size:18px;">
+             </div>
          </form>
          </div>
 <?php require('footer.php');?>
