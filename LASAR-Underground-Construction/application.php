@@ -8,7 +8,7 @@
                 <div class="input-field col s3">
                 <input type="text" id="first-name" class="validate no-b">
                  <label for="first-name">First Name</label>
-                 
+
                  </div>
                  <div class="input-field col s3">
                 <input type="text" id="last-name" class="validate no-b">
