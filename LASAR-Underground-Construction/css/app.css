@@ -24,7 +24,7 @@
 .service {
     background-repeat: no-repeat;
     height: 15rem;
-    text-shadow: 0px 3.2px 10px rgba(0, 0, 0, 0.84); 
+    text-shadow: 0px 3.2px 10px rgba(0, 0, 0, 0.84);
 }
 .service-1 {
     background-image:url(../Img/IMG_1564.jpeg);
@@ -45,7 +45,7 @@
 }
 .aqua {
     //background-color: #6BBAA7;
-    
+
 }
 .menu {
     border: 0px
@@ -57,7 +57,7 @@ footer {
 .serviceTxt {
     color: white;
     font-size: 5rem;
-    margin:0; 
+    margin:0;
 }
 footer a {
     display:block;
@@ -125,7 +125,18 @@ nav ul a:hover {
 .navbar-inner, .navbar .btn-navbar {
     border:0px;
 }
+<<<<<<< HEAD
+.navbar-inner, .navbar .btn-navbar {
+    border:0px;
+}
+.no-b {
+    border-top: none;
+    border-right: none;
+    border-left: none;
+}
+=======
 .parallax-container {
     z-index: -1;
     margin: 0;
 }
+>>>>>>> origin/master

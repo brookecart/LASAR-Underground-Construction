@@ -18,31 +18,31 @@
 
            <div class="row">
                 <div class="input-field col s6">
-                <input type="text" id="first-name" class="validate">
+                <input type="text" id="first-name" class="validate no-b">
                  <label for="first-name">First Name</label>
                  
                  </div>
                  <div class="input-field col s6">
-                <input type="text" id="last-name" class="validate">
+                <input type="text" id="last-name" class="validate no-b">
                  <label for="last-name">Last Name</label>
                </div>
              </div>
              
              <div class="row">
                  <div class="input-field col s12">
-                  <input type="tel" id="phone">
+                  <input type="tel" id="phone" class="no-b">
                   <label for="phone">Phone Number</label>
               </div>
              </div>
               <div class="row">
                  <div class="input-field col s12">
-                  <input type="email" id="email">
+                  <input type="email" id="email" class="no-b">
                   <label for="email" data-error="Invalid Email">Email</label>
               </div>
              </div>
               <div class="row">
                  <div class="input-field col s12">
-                  <input type="text" id="subj">
+                  <input type="text" id="subj" class="no-b">
                   <label for="subj">Subject</label>
               </div>
              </div>
@@ -50,10 +50,7 @@
                    <div class="input-field col s12">
                  <textarea id="message" class="materialize-textarea" data-length="300"></textarea>
                     <label for="message">Message</label>
-                 <input id="submit" type="submit" class="lsrBorder green darken-3" style="font-size:18px; color: white;">
-                 <a class="column lsrBorder small-4 green darken-3" href="BID.php">
-                        <h5 style="color:white;">Request a Bid</h1>
-                </a>
+                 <input type="submit">
               </div>
              </div>
          </form>
