@@ -125,18 +125,12 @@ nav ul a:hover {
 .navbar-inner, .navbar .btn-navbar {
     border:0px;
 }
-<<<<<<< HEAD
-.navbar-inner, .navbar .btn-navbar {
-    border:0px;
-}
 .no-b {
     border-top: none;
     border-right: none;
     border-left: none;
 }
-=======
 .parallax-container {
     z-index: -1;
     margin: 0;
 }
->>>>>>> origin/master
