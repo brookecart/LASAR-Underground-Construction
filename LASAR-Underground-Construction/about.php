@@ -1,6 +1,6 @@
 <?php require('navbar.php');?>
 
-    <div class="parallax-container">
+    <div class="parallax-container" style="width: 100%">
         <div class="parallax">
             <img src="img/IMG_1564.jpeg" alt="Space">
         </div>
@@ -11,27 +11,6 @@
     </div>
 
     <!--== ABOUT PAGE CONTENT ==-->
-    <div class="row container">
-        <div class="col s12">
-    <div class="card">
-
-    <div class="card-image waves-effect waves-block waves-light" style="width:50%; height: 25%">
-      <img class="activator" src="img/IMG_1404.jpeg">
-    </div>
-
-    <div class="card-content">
-      <span class="card-title activator grey-text text-darken-4">Our History<i class="material-icons right">more_vert</i></span>
-    </div>
-
-    <div class="card-reveal">
-      <span class="card-title grey-text text-darken-4">Card Title<i class="material-icons right">close</i></span>
-
-      <p>In July of 1984, LASAR Construction was started as a sole proprietorship company by Shawm Griswold. The main focus was the installation and repair of water lines, sewer lines, and underground telephone. Work was mostly conducted as a sub contractor for other contruction companies. In April of 1998, LASAR Construction secured an agreement with AT&amp;T to bid to provide goods and services. Sine that time, 90% of the gross receipts are attributable to this agreemeent. This agreement was granted based on an ability to fulfill various requirements of AT&amp;T. In January 1999, the company was incorporated. The name was changed to LASAR Underground Construction Incorporated. Shawn Griwswold was president and Lorrie Griswold was made treasureer/secretary of the corporation. In 2005, Shawn Griswold elected to retire his position. In October 2005 partial interest in LASAR Underground Construction was sold to Dennis Gregory. In June 2006, LASAR Underground Construction Inc. Secured the maintenance contract through AT&amp;T for the Fresno/Madera area. The company is currently under contract to do the maintenance for the Handford/Visalia/Sonora Area. Lorrie Griswold was elected president in February of 2008 and Dennies Gregory was elected Vice President.</p>
-
-    </div>
-  </div>
-        </div>
-        </div>
 
     <div class="row container">
         <div class="col s12">
