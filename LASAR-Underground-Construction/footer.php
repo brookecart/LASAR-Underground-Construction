@@ -1,32 +1,35 @@
-<div id="footer" class="page-footer" style="padding: 50px; background-color: #2E7D32;">
-    <div class="expanded row">
-        <div class="large-3 columns">
-            <i class="fa fa-copyright" aria-hidden="true" style="color: white;"> LASAR Underground Construction</i>
-            <p style="color: white;">Designed and developed by CART Group 6</p>
+<div class="page-footer" style="background-color: #2E7D32;">
+    <div class="row container">
+        <div class="l3 s12 col ">
+            <h5 class="white-text"> LASAR Underground Construction</h5>
+            <p class="white-text">Designed and developed by CART Group 6</p>
         </div>
         
-        <div class="large-3 columns hide-on-med-and-down">
-            <p style="color: white;">We proudly service some of the leading companies in the Fresno Area.</p>
-            <ul style="color: white;">
-                <li>AT&amp;T Communications</li>
-                <li>City of Clovis</li>
-                <li>City of Fresno</li>
-                <li>Fresno Flood Control District</li>
-                <li>Valley Controls, Inc</li>
+        <div class="l3 s12 col hide-on-med-and-down">
+            <p class="white-text">We proudly service some of the leading companies in the Fresno Area.</p>
+            <ul>
+                <li class="white-text">AT&amp;T Communications</li>
+                <li class="white-text">City of Clovis</li>
+                <li class="white-text">City of Fresno</li>
+                <li class="white-text">Fresno Flood Control District</li>
+                <li class="white-text">Valley Controls, Inc</li>
             </ul>
         </div>
         
-        <div class="large-2 large-offset-1 column">
-            <p style="color: white;">EMAIL undergroundemail@email.com</p>
-            <p style="color: white;">PHONE 559.291.0124</p>
-            <p style="color: white;">FAX 559.291.0624</p>
+        <div class="l3 s12 col">
+            <p class="white-text">EMAIL undergroundemail@email.com</p>
+            <p class="white-text">PHONE 559.291.0124</p>
+            <p class="white-text">FAX 559.291.0624</p>
         </div>
         
-        <div class="large-2 large-offset-1 column">
-            <p style="color: white;">LOCATIONS</p>
-            <p style="color: white;">2545 N. Sunnyside Ave.</p>
+        <div class="l3 s12 col">
+            <h5 class="white-text">Locations</h5>
+            <p class="white-text">2545 N. Sunnyside Ave.</p>
         </div>
-        
+
+        <div class="l6 s12 col">
+        <img src="img/seals.png">
+        </div>
 
     </div>
     <div class="footer-copyright">
