@@ -32,7 +32,7 @@
       <li><a class="white-text" href="Services.php?var=other#other">Other</a></li>
         </ul>
     <nav>
-        <div class="nav-wrapper green darken-3 z-depth-1">
+        <div class="nav-wrapper green darken-3">
 
         
       <a href="index.php" class="brand-logo hide-on-med-and-down">LASAR Underground Construction Inc.</a>
