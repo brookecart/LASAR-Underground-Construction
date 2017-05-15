@@ -23,11 +23,11 @@
             <h4>Underground Wiring</h4>
         </div>
         
-        <div class="s6 col">
-            <div style="height: 300px; width: 550px; background-color: lightgrey;"></div>
+        <div class="l6 s12 col">
+            <img style="width:100%" src="img/IMG_1487.jpeg" alt="">
         </div>
         
-        <div class="s6 col">
+        <div class="l6 s12 col">
             <p>Nam ac justo in arcu vehicula sagittis eget et nulla. Donec varius purus nisi, ac egestas turpis fermentum non. Fusce feugiat volutpat ligula ac vulputate. Donec purus ex, imperdiet ac aliquam nec, blandit non velit. In hac habitasse platea dictumst. Interdum et malesuada fames ac ante ipsum primis in faucibus. Suspendisse sagittis pellentesque ultricies. Nullam egestas risus nec nunc tristique suscipit. Nullam at ligula nunc. Suspendisse potenti. Nulla a feugiat diam.</p>
         </div>
         </div>
@@ -39,11 +39,11 @@
             <h4>Solar Installation</h4>
         </div>
         
-        <div class="s6 col">
-            <div style="height: 300px; width: 550px; background-color: lightgrey;"></div>
+        <div class="l6 s12 col">
+            <img style="width:100%" src="img/IMG_1487.jpeg" alt="">
         </div>
         
-        <div class="s6 col">
+        <div class="l6 s12 col">
             <p>Nam ac justo in arcu vehicula sagittis eget et nulla. Donec varius purus nisi, ac egestas turpis fermentum non. Fusce feugiat volutpat ligula ac vulputate. Donec purus ex, imperdiet ac aliquam nec, blandit non velit. In hac habitasse platea dictumst. Interdum et malesuada fames ac ante ipsum primis in faucibus. Suspendisse sagittis pellentesque ultricies. Nullam egestas risus nec nunc tristique suscipit. Nullam at ligula nunc. Suspendisse potenti. Nulla a feugiat diam.</p>
         </div>
         </div>
@@ -56,11 +56,11 @@
             <h4>Recent Projects</h4>
         </div>
         
-        <div class="s6 col">
-            <div style="height: 300px; width: 550px; background-color: lightgrey;"></div>
+        <div class="l6 s12 col">
+            <img style="width:100%" src="img/IMG_1487.jpeg" alt="">
         </div>
         
-        <div class="s6 col">
+        <div class="l6 s12 col">
             <p>Nam ac justo in arcu vehicula sagittis eget et nulla. Donec varius purus nisi, ac egestas turpis fermentum non. Fusce feugiat volutpat ligula ac vulputate. Donec purus ex, imperdiet ac aliquam nec, blandit non velit. In hac habitasse platea dictumst. Interdum et malesuada fames ac ante ipsum primis in faucibus. Suspendisse sagittis pellentesque ultricies. Nullam egestas risus nec nunc tristique suscipit. Nullam at ligula nunc. Suspendisse potenti. Nulla a feugiat diam.</p>
         </div>
     </div>
