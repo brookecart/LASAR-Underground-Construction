@@ -1,10 +1,23 @@
-<?php require('navbar.php');?>
+<?php
+if(isset($_GET['var'])){
+    $active = $_GET['var'];
+}
+
+function active($var){
+    global $active;
+    if($var == $active) {
+        echo "active";
+    }
+}
+
+require('navbar.php');
+?>
 <br>
     <div class="row col m6 container">
        <h1 style="font-size:90px;">Services</h1>
         <ul class="collapsible green darken-3 col m10"  style="padding:0;" data-collapsible="accordion" >
             <li>
-              <div id="wiring" class="collapsible-header service service-1"><i class="material-icons"></i><h1 class="serviceTxt left-align">Wiring</h1></div>
+              <div id="wiring" class="collapsible-header service service-1 <?php active('wiring'); ?>"><i class="material-icons"></i><h1 class="serviceTxt left-align">Wiring</h1></div>
               <div class="collapsible-body">
                   <span>
                     <div class="z-depth-5" style="background-color:white; padding-top:15px; padding-bottom:15px;">
@@ -14,7 +27,7 @@
               </div>
             </li>
             <li>
-              <div id="solar" class="collapsible-header service service-2"><i class="material-icons"></i><h2 class="serviceTxt left-align">Solar</h2></div>
+              <div id="solar" class="collapsible-header service service-2 <?php active('solar'); ?>"><i class="material-icons"></i><h2 class="serviceTxt left-align">Solar</h2></div>
               <div class="collapsible-body">
                   <span>
                      <div class="z-depth-5" style="background-color:white; padding-top:15px; padding-bottom:15px;">
@@ -24,7 +37,7 @@
               </div>
             </li>
             <li>
-              <div id="other" class="collapsible-header service service-3"><i class="material-icons"></i><h2 class="serviceTxt left-align">Other</h2></div>
+              <div id="other" class="collapsible-header service service-3 <?php active('other'); ?>"><i class="material-icons"></i><h2 class="serviceTxt left-align">Other</h2></div>
               <div class="collapsible-body">
                   <span>
                       <div class="z-depth-5" style="background-color:white; padding-top:15px; padding-bottom:15px;">

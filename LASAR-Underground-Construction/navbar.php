@@ -27,13 +27,13 @@
         ?>
 
         <ul id="dropdown1" class="dropdown-content green darken-2">
-      <li><a class="white-text" href="Services.php#wiring">Wiring</a></li>
-      <li><a class="white-text" href="Services.php#solar">Solar</a></li>
-      <li><a class="white-text" href="Services.php#other">Other</a></li>
+      <li><a class="white-text" href="Services.php?var=wiring#wiring">Wiring</a></li>
+      <li><a class="white-text" href="Services.php?var=solar#solar">Solar</a></li>
+      <li><a class="white-text" href="Services.php?var=other#other">Other</a></li>
         </ul>
-
     <nav>
         <div class="nav-wrapper green darken-3 z-depth-1">
+
         
       <a href="index.php" class="brand-logo hide-on-med-and-down">LASAR Underground Construction Inc.</a>
       <a href="index.php" class="brand-logo hide-on-large-only">LASAR</a>
