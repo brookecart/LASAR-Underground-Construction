@@ -2,7 +2,7 @@
     <!--== BODY HTML CONTENT ==-->
         <div class="parallax-container" style="width: 100%">
           <div class="parallax">
-            <img src="img/IMG_1503.jpeg" alt="Space">
+            <img src="img/IMG_1503.jpeg" alt="Space" style="display:block">
           </div>
         </div>
 
@@ -69,6 +69,7 @@
 <?php require('footer.php');?>
    <script>$(document).ready(function(){
       $('.parallax').parallax();
+    $(".button-collapse").sideNav();
     });</script>
     
    <!-- == END BODY HTML CONTENT ==-->
