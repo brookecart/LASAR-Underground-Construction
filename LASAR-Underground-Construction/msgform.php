@@ -48,7 +48,7 @@
              </div>
               <div class="row">
                    <div class="input-field col s12">
-                 <textarea id="message" class="materialize-textarea" data-length="300"></textarea>
+                 <textarea id="message" class="materialize-textarea" data-length="600"></textarea>
                     <label for="message">Message</label>
 
                  <button class="btn waves-effect waves-light green darken-3" type="submit" name="action">Submit
