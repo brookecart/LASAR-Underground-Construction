@@ -27,15 +27,34 @@
         ?>
 
         <ul id="dropdown1" class="dropdown-content green darken-2">
-      <li><a class="white-text" href="Services.php?var=wiring#wiring">Wiring</a></li>
-      <li><a class="white-text" href="Services.php?var=solar#solar">Solar</a></li>
-      <li><a class="white-text" href="Services.php?var=other#other">Other</a></li>
+          <li><a class="white-text" href="Services.php?var=wiring#wiring">Wiring</a></li>
+          <li><a class="white-text" href="Services.php?var=solar#solar">Solar</a></li>
+          <li><a class="white-text" href="Services.php?var=other#other">Other</a></li>
         </ul>
-    <nav>
-        <div class="nav-wrapper green darken-3">
 
-        
-      <a href="index.php" class="brand-logo hide-on-med-and-down">LASAR Underground Construction Inc.</a>
+            <ul class="side-nav" id="mobile-demo">
+                <li><div class="userView">
+                  <div class="background">
+                    <img src="img/100_1404.jpeg">
+                  </div>
+                  <a href="#!user"><img class="circle" src="img/img001.jpeg"></a>
+                  <a href="#!name"><span class="white-text name">LASAR Underground</span></a>
+                  <a href="#!email"><span class="white-text email">jdandturk@gmail.com</span></a>
+                </div></li>
+               <li><a href="Services.php">Services</a></li>
+               <li><a href="about.php">About us</a></li>
+               <li><a href="Contacts.php">Contact</a></li>
+               <li><a href="application.php">Employment</a></li>
+            </ul>
+    <nav>
+<<<<<<< HEAD
+        <div class="nav-wrapper green darken-3">
+=======
+        <div class="nav-wrapper green darken-3 z-depth-1">
+
+>>>>>>> origin/master
+
+      <a href="index.php" class="brand-logo hide-on-med-and-down">LASAR Underground Construction</a>
       <a href="index.php" class="brand-logo hide-on-large-only">LASAR</a>
      <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
       <ul class="right hide-on-med-and-down">
@@ -46,10 +65,5 @@
         <li><a href="Contacts.php">Contact</a></li>
         <li><a href="application.php">Employment</a></li>
         </ul>
-            <ul class="side-nav" id="mobile-demo">
-                <li><a href="about.php">About us</a></li>
-                <li><a href="Contacts.php">Contact</a></li>
-                <li><a href="application.php">Employment</a></li>
-            </ul>
     </div>
   </nav>

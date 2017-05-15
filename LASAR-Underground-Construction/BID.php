@@ -1,8 +1,8 @@
 <?php require('navbar.php');?>
     <!--== BODY HTML CONTENT ==-->
-        <div class="row large-" style="margin-top:15px;">
+        <div class="container" style="padding: 70px;">
          <form action="form.php" method="get">
-            <h1 style="font-size:60px;">Request a Bid</h1>
+            <h1 style="font-size:50px;">Request a Bid</h1>
            <div class="row">
                 <div class="input-field col s6">
                 <input type="text" id="Company" class="validate">
@@ -34,13 +34,15 @@
               </div>
              </div>
               <div class="row">
-                   <div class="input-field col s12">
+                   <div class="input-field col s6">
                  <textarea id="jobDesc" class="materialize-textarea" data-length="500"></textarea>
                     <label for="jobDesc">Bid Description</label>
               </div>
              </div>
              <div class="row">
-                 <input type="submit" class="button lsrBorder green darken-3" style="font-size:18px;">
+                 <button class="btn waves-effect waves-light green darken-3" type="submit" name="action">Submit
+                    <i class="material-icons right">send</i>
+                  </button>
              </div>
          </form>
          </div>
