@@ -50,7 +50,7 @@
         <div class="nav-wrapper green darken-3 z-depth-1">
 
 
-      <a href="index.php" class="brand-logo hide-on-med-and-down">LASAR Underground Construction Inc.</a>
+      <a href="index.php" class="brand-logo hide-on-med-and-down">LASAR Underground Construction</a>
       <a href="index.php" class="brand-logo hide-on-large-only">LASAR</a>
      <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
       <ul class="right hide-on-med-and-down">
