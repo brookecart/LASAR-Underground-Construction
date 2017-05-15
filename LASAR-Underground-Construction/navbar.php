@@ -47,9 +47,7 @@
                <li><a href="application.php">Employment</a></li>
             </ul>
     <nav>
-        <div class="nav-wrapper green darken-3 z-depth-1">
-
-
+        <div class="nav-wrapper green darken-3">
       <a href="index.php" class="brand-logo hide-on-med-and-down">LASAR Underground Construction</a>
       <a href="index.php" class="brand-logo hide-on-large-only">LASAR</a>
      <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
