@@ -1,6 +1,6 @@
 <?php require('navbar.php');?>
 
-    <div class="parallax-container" style="width: 100%">
+    <div class="parallax-container" style="width: 100%; margin-top:-100px;">
         <div class="parallax">
             <img src="img/IMG_1564.jpeg" alt="Space">
         </div>
@@ -76,5 +76,6 @@
     <?php require('footer.php');?>
      <script>$(document).ready(function(){
       $('.parallax').parallax();
+    $(".button-collapse").sideNav();
     });</script>
     <!--== END ABOUT PAGE CONTENT ==-->

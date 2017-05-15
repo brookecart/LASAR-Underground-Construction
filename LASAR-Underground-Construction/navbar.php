@@ -27,29 +27,30 @@
         ?>
 
         <ul id="dropdown1" class="dropdown-content green darken-2">
-      <li><a class="white-text" href="Services.php?var=wiring#wiring">Wiring</a></li>
-      <li><a class="white-text" href="Services.php?var=solar#solar">Solar</a></li>
-      <li><a class="white-text" href="Services.php?var=other#other">Other</a></li>
+          <li><a class="white-text" href="Services.php?var=wiring#wiring">Wiring</a></li>
+          <li><a class="white-text" href="Services.php?var=solar#solar">Solar</a></li>
+          <li><a class="white-text" href="Services.php?var=other#other">Other</a></li>
         </ul>
-    <nav>
+
+        <ul class="side-nav" id="slide-out">
+            <li><a href="about.php">About us</a></li>
+            <li><a href="Contacts.php">Contact</a></li>
+            <li><a href="application.php">Employment</a></li>
+        </ul>
+
+    <nav class="navbar">
         <div class="nav-wrapper green darken-3 z-depth-1">
 
-        
       <a href="index.php" class="brand-logo hide-on-med-and-down">LASAR Underground Construction Inc.</a>
       <a href="index.php" class="brand-logo hide-on-large-only">LASAR</a>
-     <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
-      <ul class="right hide-on-med-and-down">
+     <a href="#" data-activates="slide-out" class="button-collapse"><i class="material-icons">menu</i></a>
 
-        <li><a class="dropdown-button" href="#!" data-activates="dropdown1">Services<i class="material-icons right">arrow_drop_down</i></a></li>
-
-        <li><a href="about.php">About us</a></li>
-        <li><a href="Contacts.php">Contact</a></li>
-        <li><a href="application.php">Employment</a></li>
+        <ul class="right hide-on-med-and-down">
+            <li><a class="dropdown-button" href="#!" data-activates="dropdown1">Services<i class="material-icons right">arrow_drop_down</i></a></li>
+            <li><a href="about.php">About us</a></li>
+            <li><a href="Contacts.php">Contact</a></li>
+            <li><a href="application.php">Employment</a></li>
         </ul>
-            <ul class="side-nav" id="mobile-demo">
-                <li><a href="about.php">About us</a></li>
-                <li><a href="Contacts.php">Contact</a></li>
-                <li><a href="application.php">Employment</a></li>
-            </ul>
+
     </div>
   </nav>
