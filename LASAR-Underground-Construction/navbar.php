@@ -33,9 +33,18 @@
         </ul>
 
             <ul class="side-nav" id="mobile-demo">
-                <li><a href="about.php">About us</a></li>
-                <li><a href="Contacts.php">Contact</a></li>
-                <li><a href="application.php">Employment</a></li>
+                <li><div class="userView">
+                  <div class="background">
+                    <img src="img/100_1404.jpeg">
+                  </div>
+                  <a href="#!user"><img class="circle" src="img/img001.jpeg"></a>
+                  <a href="#!name"><span class="white-text name">LASAR Underground</span></a>
+                  <a href="#!email"><span class="white-text email">jdandturk@gmail.com</span></a>
+                </div></li>
+               <li><a href="Services.php">Services</a></li>
+               <li><a href="about.php">About us</a></li>
+               <li><a href="Contacts.php">Contact</a></li>
+               <li><a href="application.php">Employment</a></li>
             </ul>
     <nav>
         <div class="nav-wrapper green darken-3 z-depth-1">
