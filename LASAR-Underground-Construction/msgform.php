@@ -37,7 +37,7 @@
                  <textarea id="message" class="materialize-textarea" data-length="600"></textarea>
                     <label for="message">Message</label>
 
-                 <button class="btn waves-effect waves-light green darken-3" type="submit" name="action">Submit
+                 <button class="btn waves-effect waves-light green darken-3" type="submit" name="action" method="post">Submit
                     <i class="material-icons right">send</i>
                   </button>
 

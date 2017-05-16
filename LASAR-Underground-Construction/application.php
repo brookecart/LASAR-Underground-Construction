@@ -2,9 +2,9 @@
 
 <div class="parallax-container" style="width: 100%">
           <div class="parallax">
-            <img src="img/IMG_1404.jpeg" alt="Space">
+            <img src="img/IMG_1564.jpeg" alt="Space" style="display:block">
           </div>
-</div>
+        </div>
 
     <!--== BODY HTML CONTENT ==-->
         <div class="container" style="margin-top:15px;">
@@ -76,4 +76,9 @@
 <?php require('footer.php');?>
    <script>$(document).ready(function(){
       $('.parallax').parallax();
+    $('.button-collapse').sideNav({
+            menuWidth: 200, // Default is 300
+            closeOnClick: true, // Closes side-nav on <a> clicks, useful for Angular/Meteor
+            draggable: true // Choose whether you can drag to open on touch screens
+        });
     });</script>
