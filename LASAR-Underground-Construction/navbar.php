@@ -46,7 +46,7 @@
                <li><a href="Contacts.php">Contact</a></li>
                <li><a href="application.php">Employment</a></li>
             </ul>
-    <nav>
+    <nav style="line-height: 60px;">
         <div class="nav-wrapper green darken-3">
       <a href="index.php" class="brand-logo hide-on-med-and-down">LASAR Underground Construction</a>
       <a href="index.php" class="brand-logo hide-on-large-only">LASAR</a>
