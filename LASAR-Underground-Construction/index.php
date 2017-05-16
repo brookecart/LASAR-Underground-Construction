@@ -24,7 +24,7 @@
         </div>
         
         <div class="l6 s12 col">
-            <img style="width:100%" src="img/IMG_1487.jpeg" alt="">
+            <img style="width:100%" src="img/IMG_1351.jpeg" alt="">
         </div>
         
         <div class="l6 s12 col">
@@ -40,7 +40,7 @@
         </div>
         
         <div class="l6 s12 col">
-            <img style="width:100%" src="img/IMG_1487.jpeg" alt="">
+            <img style="width:100%" src="img/IMG_1457.jpeg" alt="">
         </div>
         
         <div class="l6 s12 col">
