@@ -17,7 +17,7 @@
                         <p>(559) 291-1024</p>
                     </div>
                     <div class="row">
-                        <a class="waves-effect waves-light btn-large green darken-3" href="BID.php">Request a Bid</a>
+                        <a class="waves-effect waves-light btn-large white green-text text-darken-3" style="border: 2px solid #2e7d32; font-weight:500;" href="BID.php">Request a Bid</a>
                     </div>
                 </div>
                 <div class="col s12 hide-on-large-only">
