@@ -10,7 +10,7 @@
         <div class="container" style="margin-top:15px;">
          <form action="form.php" method="get">
             <h1 class="center-align" style="font-size:60px; padding: 50px; padding-bottom: 0px;">Job Application</h1>
-            <div style="padding-top: 70px;">
+            <div style="padding-top: 70px; padding-bottom: 70px;">
             <div class="row">
             <div class="col l8 m12">
             <div class="row">
