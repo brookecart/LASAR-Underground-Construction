@@ -35,7 +35,7 @@
             <ul class="side-nav" id="mobile-demo">
                 <li><div class="userView">
                   <div class="background">
-                    <img src="img/100_1405.jpeg">
+                    <img src="img/IMG_1602.jpeg">
                   </div>
                   <a><span class="white-text name">LASAR Underground</span></a>
                 </div></li>

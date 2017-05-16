@@ -2,7 +2,7 @@
 
 <div class="parallax-container" style="width: 100%">
           <div class="parallax">
-            <img src="img/100_1403.jpeg" alt="Space">
+            <img src="img/IMG_1404.jpeg" alt="Space">
           </div>
 </div>
 
@@ -55,12 +55,6 @@
                    <div class="input-field col s12">
                  <textarea id="?2" class="materialize-textarea" data-length="500"></textarea>
                     <label for="?2">Give a breif summary of your credentials</label>
-              </div>
-             </div>
-             <div class="row">
-                  <label style="font-size:15px; padding-left:12px;">Please submit your resume</label>
-                   <div class="input-field col s12">
-                 <input type="file" id="resume">
               </div>
              </div>
              <div class="row">
