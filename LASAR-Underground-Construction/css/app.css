@@ -134,3 +134,9 @@ nav ul a:hover {
     margin: 0;
     width: 100%;
 }
+body p {
+    font-size: 20px;
+}
+p.white-text {
+    font-size: 15px;
+}
