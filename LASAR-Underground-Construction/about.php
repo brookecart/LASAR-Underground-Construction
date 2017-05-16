@@ -52,7 +52,7 @@
 
         <h6>We specialize in all of your underground service needs from installation to repaid. In addition to our contract fulfillment services, we offer:</h6>
 
-        <ul style="padding-left: 20px;">
+        <ul style="padding-left: 20px; font-size: 20px;">
             <li>Trench Services</li>
             <li>Backhoe Services</li>
             <li>Directional Boring</li>
