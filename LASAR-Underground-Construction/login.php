@@ -1,4 +1,4 @@
-<?php 
+<?php
     require('db_conn.php');
     if(isset($_GET['logout'])){
         doLogout();
@@ -9,7 +9,7 @@
 ?>
 <?php require('navbar.php');?>
 <body id="login">
-  
+
   <div class="row">
     <div class="large-4 small-centered columns">
         <form method="post" action="login.php">
@@ -20,7 +20,7 @@
         </form>
     </div>
 </div>
-   
-    
+
+
 <?php require('footer.php');?>
 <?php $conn->close(); ?>

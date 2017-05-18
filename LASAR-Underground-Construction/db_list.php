@@ -1,20 +1,38 @@
 <?php
     require('db_conn.php');
-    /*if ($_SESSION['isadmin'] == 1){ 
-                
+    if ($_SESSION['isadmin'] == 1){
                 if (isset($_GET['del'])){
                     deletePage($_GET['del']);
                 }
                 if (isset($_POST['Title'])){
                     editPage($_POST['HTML'], $_POST['Keywords'], $_POST['Description'], $_POST['Title'], $_POST['Nav_Name'], $_POST['pid']);
                 }
+
             
     } else {
         header('Location: login.php');
-    }; */
+    };
  require('navbar.php'); 
 ?>
  
+=======
+
+
+    } else {
+        header('Location: login.php');
+    }
+ require('navbar.php'); ?>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>DB Demos</title>
+    <link rel="stylesheet" href="css/foundation.min.css">
+    <link rel="stylesheet" href="css/app.css">
+</head>
+<body>
+
+>>>>>>> 5f9dc7219e2a7da702c60c8bedc775a9cdf7ae2b
   <div class="row">
     <div class="large-12 columns">
     <h1>Pages to Edit</h1>
@@ -34,15 +52,15 @@
     <br>
     <a href="db_insert.php" class="button">Add a Page</a>
     <a href="login.php?logout" class="button alert">Logout</a>
-    
+
     </div>
 </div>
-   
-    
+
+
     <script src="js/vendor/jquery.js"></script>
     <script src="js/vendor/what-input.js"></script>
     <script src="js/vendor/foundation.js"></script>
-    <script src="js/app.js"></script>   
+    <script src="js/app.js"></script>
 </body>
 </html>
 <?php $conn->close(); ?>

@@ -5,7 +5,7 @@
           </div>
         </div>
 <br>
-       <div class="row center-align col container">
+       <div class="row center-align container">
         <h1 class="hide-on-small-only">Contact Information</h1>
         <h1 class="hide-on-med-and-up">Contact</h1>
     </div>
