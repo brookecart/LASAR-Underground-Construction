@@ -94,7 +94,7 @@ function updateHomepage($Piece_Order, $Headers, $Image, $Text, $links, $pid) {
     }
 ;}
 
-/* ---------- Edit Mission State ---------- */ 
+/* ---------- Edit Mission State ---------- */
 function updatePage($Statement, $pid) {
     global $conn;
     $sql = "UPDATE mission statement SET Statement='$Statement' WHERE ContentID=$pid";
@@ -106,7 +106,7 @@ function updatePage($Statement, $pid) {
     }
 ;}
 
-/* ---------- Edit Services ---------- */ 
+/* ---------- Edit Services ---------- */
 function updateServices($ServiceOrder, $Service, $Service_Image, $General_Text, $General_Image, $pid) {
     global $conn;
     $sql = "UPDATE services SET ServiceOrder='$ServiceOrder', Service='$Service', Service_Image='$Service_Image', General_Text='$General_Text', General_Image='$General_Image' WHERE ContentID=$pid";
