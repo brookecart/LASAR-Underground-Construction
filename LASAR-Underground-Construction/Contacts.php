@@ -17,7 +17,7 @@
             <div class="col s1 hide-on-med-and-down"></div>
             <div class="col s6 hide-on-med-and-down">
                     <div>
-                        <iframe src='https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12783.487837144074!2d-119.6919882!3d36.773639!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x3733227db16a15e!2sLasar+Construction!5e0!3m2!1sen!2sus!4v1494209808579' width='400' height='350' frameborder='0' style='border:0' allowfullscreen></iframe>
+                        <iframe src='https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12783.487837144074!2d-119.6919882!3d36.773639!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x3733227db16a15e!2sLasar+Construction!5e0!3m2!1sen!2sus!4v1494209808579' width='450' height='365' frameborder='0' style='border:0' allowfullscreen></iframe>
                     </div>
                     <div>
                         <h5>Address:</h5>
