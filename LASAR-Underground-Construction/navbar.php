@@ -11,12 +11,16 @@
 </head>
    <body>
          <?php 
-            function imgText($boxSize, $imgSrc, $imgSize, $lsrText, $txtSize) {
+            function imgText($imgSrc, $lsrText) {
                 //function to make an image with text next to it
-                echo "<div class='$boxSize lsrImgText'>".
-                    "<img src='$imgSrc' class='col $imgSize'></img>".
-                    "<p class='col $txtSize'>$lsrText</p>".
-                    "</div>";
+                echo '<div class="row" style="background-color:white; padding-top:15px; padding-bottom:15px;">
+                      <div class="col m7">
+                          <img src=' . $imgSrc . ' alt="hi" style="max-width:100%;">
+                      </div>
+                      <div class="col m5">
+                          <p>' . $lsrText . '</p>
+                      </div>
+                  </div>';
             } 
         ?>
 
