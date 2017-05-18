@@ -35,8 +35,9 @@
     background-position:right;
 }
 .service-3 {
-    background-image:url(../Img/IMG_1481.jpeg);
-    background-position:left;
+    background-image:url(../Img/IMG_1351.jpeg);
+    background-position:right;
+    background-size: cover;
 }
 .lsrBorder {
     border-radius: 15px;
