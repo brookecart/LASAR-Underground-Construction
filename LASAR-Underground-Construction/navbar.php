@@ -8,12 +8,6 @@
     <link rel="shortcut icon" type="image/x-icon" href="cone.png" />
      <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <title>LASAR</title>
-     <script>$(document).ready(function(){
-        $(".button-collapse").sideNav();
-        $(".dropdown-button").dropdown({
-            hover: false
-        });
-    });</script>
 </head>
    <body>
          <?php 
