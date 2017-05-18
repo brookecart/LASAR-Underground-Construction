@@ -7,7 +7,8 @@
     </div>
 
     <div class="row center-align col container">
-        <h1 style="padding: 50px;">About Our Company</h1>
+        <h1 class="hide-on-small-only">About Our Company</h1>
+        <h1 class="hide-on-med-and-up">About</h1>
     </div>
 
     <!--== ABOUT PAGE CONTENT ==-->
@@ -18,7 +19,7 @@
                 <div class="card-content black-text">
                   <span class="card-title wow">Our History</span>
 
-                    <p>In July of 1984, LASAR Construction was started as a sole proprietorship company by Shawm Griswold. The main focus was the installation and repair of water lines, sewer lines, and underground telephone. Work was mostly conducted as a sub contractor for other contruction companies. In April of 1998, LASAR Construction secured an agreement with AT&amp;T to bid to provide goods and services. Sine that time, 90% of the gross receipts are attributable to this agreemeent. This agreement was granted based on an ability to fulfill various requirements of AT&amp;T. In January 1999, the company was incorporated. The name was changed to LASAR Underground Construction Incorporated. Shawn Griwswold was president and Lorrie Griswold was made treasureer/secretary of the corporation. In 2005, Shawn Griswold elected to retire his position. In October 2005 partial interest in LASAR Underground Construction was sold to Dennis Gregory. In June 2006, LASAR Underground Construction Inc. Secured the maintenance contract through AT&amp;T for the Fresno/Madera area. The company is currently under contract to do the maintenance for the Handford/Visalia/Sonora Area. Lorrie Griswold was elected president in February of 2008 and Dennies Gregory was elected Vice President.</p>
+                    <p>In July of 1984, LASAR Construction was started as a sole proprietorship company by Shawm Griswold. The main focus was the installation and repair of water lines, sewer lines, and underground telephone. Work was mostly conducted as a sub contractor for other contruction companies. In April of 1998, LASAR Construction secured an agreement with AT&amp;T to bid to provide goods and services. Sine that time, 90% of the gross receipts are attributable to this agreemeent. This agreement was granted based on an ability to fulfill various requirements of AT&amp;T. In January 1999, the company was incorporated. The name was changed to LASAR Underground Construction Incorporated. Shawn Griwswold was president and Lorrie Griswold was made treasureer and secretary of the corporation. In 2005, Shawn Griswold elected to retire his position. In October 2005 partial interest in LASAR Underground Construction was sold to Dennis Gregory. In June 2006, LASAR Underground Construction Inc. Secured the maintenance contract through AT&amp;T for the Fresno and Madera areas. The company is currently under contract to do the maintenance for the Handford, Visalia, and Sonora Areas. Lorrie Griswold was elected president in February of 2008 and Dennies Gregory was elected Vice President.</p>
 
                 </div>
             </div>
@@ -50,14 +51,14 @@
 
                     <span class="card-title wow">Services</span>
 
-        <h6>We specialize in all of your underground service needs from installation to repaid. In addition to our contract fulfillment services, we offer:</h6>
+        <p>We specialize in all of your underground service needs from installation to repaid. In addition to our contract fulfillment services, we offer:</p>
 
         <ul style="padding-left: 20px; font-size: 20px;">
             <li>Trench Services</li>
             <li>Backhoe Services</li>
             <li>Directional Boring</li>
             <li>Splice pits</li>
-            <li>Surface restoration (concrete/asphalt)</li>
+            <li>Surface restoration (concrete/ asphalt)</li>
             <li>Sub-box placement</li>
             <li>Rodding services</li>
             <li>Placement of Water Lines</li>
