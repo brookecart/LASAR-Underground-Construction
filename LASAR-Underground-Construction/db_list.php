@@ -1,9 +1,6 @@
 <?php
     require('db_conn.php');
     if ($_SESSION['isadmin'] == 1){
-        
-        
-            
                 
                 if (isset($_GET['del'])){
                     deletePage($_GET['del']);
@@ -16,8 +13,7 @@
     } else {
         header('Location: login.php');
     }
-    
-?>
+ require('navbar.php'); ?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -27,7 +23,6 @@
     <link rel="stylesheet" href="css/app.css">
 </head>
 <body>
-  <?php require('modules/nav.php'); ?>
   
   <div class="row">
     <div class="large-12 columns">
