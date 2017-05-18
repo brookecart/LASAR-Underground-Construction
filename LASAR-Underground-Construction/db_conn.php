@@ -14,10 +14,10 @@ if ($conn->connect_error) {
 
 /* ---------- DB functions ---------- */
 
-/* ----------      */
+/* --------------------------------- Additions ----------------------------- */
 
 /* ---------- Add a Homepage row ---------- */
-function addPage($HTML, $Keywords, $Description, $Title, $Nav_Name) {
+function addHPRow($Piece_Order, $Headers, $Image, $Text, $links) {
     global $conn;
     $sql = "INSERT INTO homepage (Piece_Order, Headers, Image, Text, links) VALUES ('$Piece_Order', '$Headers', '$Image', '$Text', '$links')";
     
@@ -29,7 +29,7 @@ function addPage($HTML, $Keywords, $Description, $Title, $Nav_Name) {
 ;}
 
 /* ---------- Add a Service ---------- */
-function addPage($HTML, $Keywords, $Description, $Title, $Nav_Name) {
+function addService($ServiceOrder, $Service, $Service_Image, $General_Text, $General_Image) {
     global $conn;
     $sql = "INSERT INTO services (ServiceOrder, Service, Service_Image, General_Text, General_Image) VALUES ('$ServiceOrder', '$Service', '$Service_Image', '$General_Text', '$General_Image')";
     
@@ -40,10 +40,28 @@ function addPage($HTML, $Keywords, $Description, $Title, $Nav_Name) {
     }
 ;}
 
-/* ---------- Edit a page ---------- */ 
-function updatePage($HTML, $Keywords, $Description, $Title, $Nav_Name, $pid) {
+/* ---------- Add an about  ---------- */
+function addAbout($AboutOrder, $AboutHeader, $AboutText, $NewImage) {
     global $conn;
-    $sql = "UPDATE content SET HTML='$HTML', Keywords='$Keywords', Description='$Description', Title='$Title', Nav_Name='$Nav_Name' WHERE ContentID=$pid";
+    $sql = "INSERT INTO addabout (AboutOrder, AboutHeader, AboutText, NewImage) VALUES ('$AboutOrder', '$AboutHeader', '$AboutText', '$NewImage')";
+    
+    if ($conn->query($sql) === TRUE) {
+        echo "New About created.";
+    } else {
+        echo "Error: " . $sql . "<br>" . $conn->error;
+    }
+;}
+
+
+
+/* ---------------------------------- Edits ---------------------------------- */
+
+
+
+/* ---------- Edit about ---------- */ 
+function updateAbout($AboutOrder, $AboutHeader, $AboutText, $NewImage, $pid) {
+    global $conn;
+    $sql = "UPDATE addabout SET AboutOrder='$AboutOrder', AboutHeader='$AboutHeader', AboutText='$AboutText', NewImage='$NewImage' WHERE ContentID=$pid";
     
     if ($conn->query($sql) === TRUE) {
         echo "Page updated.";
@@ -52,13 +70,49 @@ function updatePage($HTML, $Keywords, $Description, $Title, $Nav_Name, $pid) {
     }
 ;}
 
-/* ---------- Edit Mission Statement ---------- */ 
-function updateMission($HTML, $Keywords, $Description, $Title, $Nav_Name, $pid) {
+/* ---------- Edit footer ---------- */ 
+function updateFooter($company, $Contact, $Locations, $pid) {
     global $conn;
-    $sql = "UPDATE content SET HTML='$HTML', Keywords='$Keywords', Description='$Description', Title='$Title', Nav_Name='$Nav_Name' WHERE ContentID=$pid";
+    $sql = "UPDATE footeradditions SET company='$company', Contact='$Contact', Locations='$Locations' WHERE ContentID=$pid";
     
     if ($conn->query($sql) === TRUE) {
-        echo "Mission Statement updated.";
+        echo "Page updated.";
+    } else {
+        echo "Error: " . $sql . "<br>" . $conn->error;
+    }
+;}
+
+/* ---------- Edit homepage ---------- */ 
+function updateHomepage($Piece_Order, $Headers, $Image, $Text, $links, $pid) {
+    global $conn;
+    $sql = "UPDATE homepage SET Piece_Order='$Piece_Order', Headers='$Headers', Image='$Image', Text='$Text', links='$links' WHERE ContentID=$pid";
+    
+    if ($conn->query($sql) === TRUE) {
+        echo "Page updated.";
+    } else {
+        echo "Error: " . $sql . "<br>" . $conn->error;
+    }
+;}
+
+/* ---------- Edit Mission State ---------- */ 
+function updatePage($Statement, $pid) {
+    global $conn;
+    $sql = "UPDATE mission statement SET Statement='$Statement' WHERE ContentID=$pid";
+    
+    if ($conn->query($sql) === TRUE) {
+        echo "Page updated.";
+    } else {
+        echo "Error: " . $sql . "<br>" . $conn->error;
+    }
+;}
+
+/* ---------- Edit Services ---------- */ 
+function updateServices($ServiceOrder, $Service, $Service_Image, $General_Text, $General_Image, $pid) {
+    global $conn;
+    $sql = "UPDATE services SET ServiceOrder='$ServiceOrder', Service='$Service', Service_Image='$Service_Image', General_Text='$General_Text', General_Image='$General_Image' WHERE ContentID=$pid";
+    
+    if ($conn->query($sql) === TRUE) {
+        echo "Page updated.";
     } else {
         echo "Error: " . $sql . "<br>" . $conn->error;
     }

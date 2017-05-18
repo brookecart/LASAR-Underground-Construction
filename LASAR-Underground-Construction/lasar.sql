@@ -28,6 +28,7 @@ SET time_zone = "+00:00";
 
 CREATE TABLE `addabout` (
   `ContentID` int(11) NOT NULL,
+  `AboutOrder` int(11) NOT NULL,
   `AboutHeader` tinytext NOT NULL,
   `AboutText` longtext NOT NULL,
   `NewImage` mediumtext NOT NULL
