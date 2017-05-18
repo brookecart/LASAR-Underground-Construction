@@ -2,9 +2,9 @@
 
 <div class="parallax-container" style="width: 100%">
           <div class="parallax">
-            <img src="img/100_1403.jpeg" alt="Space">
+            <img src="img/IMG_1564.jpeg" alt="Space" style="display:block">
           </div>
-</div>
+        </div>
 
     <!--== BODY HTML CONTENT ==-->
         <div class="container" style="margin-top:15px;">
@@ -12,7 +12,7 @@
             <h1 class="center-align" style="font-size:60px; padding: 50px; padding-bottom: 0px;">Job Application</h1>
             <div style="padding-top: 70px; padding-bottom: 70px;">
             <div class="row">
-            <div class="col s8">
+            <div class="col l8 m12">
             <div class="row">
                 <div class="input-field col s6">
                 <input type="text" id="first-name" class="validate no-b">
@@ -58,18 +58,12 @@
               </div>
              </div>
              <div class="row">
-                  <label style="font-size:15px; padding-left:12px;">Please submit your resume</label>
-                   <div class="input-field col s12">
-                 <input type="file" id="resume">
-              </div>
-             </div>
-             <div class="row">
                  <button class="btn waves-effect waves-light green darken-3" type="submit" name="action">Submit
                     <i class="material-icons right">send</i>
                   </button>
              </div>
             </div>
-                <div class="col s3">
+                <div class="col s3 hide-on-med-and-down">
                     <blockquote style="border-left: 5px solid #2e7d32;">
                     LASAR Undergound Consttruction, Inc. takes safety very seriously. We ensure all employees are educated in OSHA safety practices. Each employee gets a copy of the Safety and Illness Prevention Guide which is in all new employee packages. Employees are required to read, understand, and obey the practices of the guide. All employees undergo drug testing. LASAR Undergound Construction, Inc. conducts quarterly safety meetings with all staff. Our supervisors, foremen, and laborers also hold weekly "tailgate" meetings to review and address any new specific safety concerns or updates.<b> LASAR Underground Construction, Inc. is an equal opporunity employer.</b>
                     </blockquote>
@@ -77,9 +71,17 @@
             </div>
             </div>
          </form>
+         <div style="padding-bottom: 70px;" class="s12 row hide-on-large-only">
+             <p>LASAR Undergound Consttruction, Inc. takes safety very seriously. We ensure all employees are educated in OSHA safety practices. Each employee gets a copy of the Safety and Illness Prevention Guide which is in all new employee packages. Employees are required to read, understand, and obey the practices of the guide. All employees undergo drug testing. LASAR Undergound Construction, Inc. conducts quarterly safety meetings with all staff. Our supervisors, foremen, and laborers also hold weekly "tailgate" meetings to review and address any new specific safety concerns or updates.<b> LASAR Underground Construction, Inc. is an equal opporunity employer.</b></p>
+         </div>
          </div>
 
 <?php require('footer.php');?>
    <script>$(document).ready(function(){
       $('.parallax').parallax();
+    $('.button-collapse').sideNav({
+            menuWidth: 200, // Default is 300
+            closeOnClick: true, // Closes side-nav on <a> clicks, useful for Angular/Meteor
+            draggable: true // Choose whether you can drag to open on touch screens
+        });
     });</script>

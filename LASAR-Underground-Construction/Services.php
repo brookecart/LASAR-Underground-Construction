@@ -20,8 +20,8 @@ require('navbar.php');
               <div id="wiring" class="collapsible-header service service-1 <?php active('wiring'); ?>"><i class="material-icons"></i><h1 class="serviceTxt left-align">Wiring</h1></div>
               <div class="collapsible-body">
                   <span>
-                    <div class="z-depth-5" style="background-color:white; padding-top:15px; padding-bottom:15px;">
-                      <?php  imgText("","Img/IMG_1602.jpeg", "m7", "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",""); ?>
+                    <div class="z-depth-5" style="background-color:white; padding-top:15px; padding-bottom:15px; height: 25rem;">
+                      <?php  imgText("","img/IMG_1602.jpeg", "m7", "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",""); ?>
                     </div>
                   </span>
               </div>
@@ -30,8 +30,8 @@ require('navbar.php');
               <div id="solar" class="collapsible-header service service-2 <?php active('solar'); ?>"><i class="material-icons"></i><h2 class="serviceTxt left-align">Solar</h2></div>
               <div class="collapsible-body">
                   <span>
-                     <div class="z-depth-5" style="background-color:white; padding-top:15px; padding-bottom:15px;">
-                      <?php  imgText("","Img/IMG_1602.jpeg", "m7", "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",""); ?>
+                     <div class="z-depth-5" style="background-color:white; padding-top:15px; padding-bottom:15px; height: 25rem;">
+                      <?php  imgText("","img/IMG_1602.jpeg", "m7", "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",""); ?>
                     </div>
                   </span>
               </div>
@@ -40,8 +40,8 @@ require('navbar.php');
               <div id="other" class="collapsible-header service service-3 <?php active('other'); ?>"><i class="material-icons"></i><h2 class="serviceTxt left-align">Other</h2></div>
               <div class="collapsible-body">
                   <span>
-                      <div class="z-depth-5" style="background-color:white; padding-top:15px; padding-bottom:15px;">
-                      <?php  imgText("","Img/IMG_1602.jpeg", "m7", "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",""); ?>
+                      <div class="z-depth-5" style="background-color:white; padding-top:15px; padding-bottom:15px; height: 25rem;">
+                      <?php  imgText("","img/IMG_1602.jpeg", "m7", "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",""); ?>
                     </div>
                   </span>
               </div>
@@ -50,3 +50,11 @@ require('navbar.php');
     </div>
 
 <?php require('footer.php');?>
+   <script>$(document).ready(function(){
+      $('.parallax').parallax();
+    $('.button-collapse').sideNav({
+            menuWidth: 200, // Default is 300
+            closeOnClick: true, // Closes side-nav on <a> clicks, useful for Angular/Meteor
+            draggable: true // Choose whether you can drag to open on touch screens
+        });
+    });</script>

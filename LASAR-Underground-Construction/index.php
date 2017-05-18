@@ -24,11 +24,11 @@
         </div>
         
         <div class="l6 s12 col">
-            <img style="width:100%" src="img/IMG_1487.jpeg" alt="">
+            <img style="width:100%" src="img/IMG_1351.jpeg" alt="">
         </div>
         
         <div class="l6 s12 col">
-            <p>Nam ac justo in arcu vehicula sagittis eget et nulla. Donec varius purus nisi, ac egestas turpis fermentum non. Fusce feugiat volutpat ligula ac vulputate. Donec purus ex, imperdiet ac aliquam nec, blandit non velit. In hac habitasse platea dictumst. Interdum et malesuada fames ac ante ipsum primis in faucibus. Suspendisse sagittis pellentesque ultricies. Nullam egestas risus nec nunc tristique suscipit. Nullam at ligula nunc. Suspendisse potenti. Nulla a feugiat diam.</p>
+            <p>Underground cable for running electrical power to a remote location can be installed at different depths, depending on the type of conduit and type of wire used. For a 6-in. deep trench, we use galvanized rigid metal electrical conduit with individual conductors inside. For a 12-in. deep trench, we direct-bury GFCI-protected underground feeder cable with a short length of PVC conduit at the house. At 18 inches, we use THWN-2 conductors inside a continuous length of PVC conduit, which protects the wire all the way through the trench to the house. At 24 inches we bury underground feeder cable, using PVC conduit to 18 in. below ground only where the wire comes up.</p>
         </div>
         </div>
         
@@ -40,11 +40,11 @@
         </div>
         
         <div class="l6 s12 col">
-            <img style="width:100%" src="img/IMG_1487.jpeg" alt="">
+            <img style="width:100%" src="img/IMG_1457.jpeg" alt="">
         </div>
         
         <div class="l6 s12 col">
-            <p>Nam ac justo in arcu vehicula sagittis eget et nulla. Donec varius purus nisi, ac egestas turpis fermentum non. Fusce feugiat volutpat ligula ac vulputate. Donec purus ex, imperdiet ac aliquam nec, blandit non velit. In hac habitasse platea dictumst. Interdum et malesuada fames ac ante ipsum primis in faucibus. Suspendisse sagittis pellentesque ultricies. Nullam egestas risus nec nunc tristique suscipit. Nullam at ligula nunc. Suspendisse potenti. Nulla a feugiat diam.</p>
+            <p>A photovoltaic (PV) module is a packaged, connect assembly of typically 6x10 photovoltaic solar cells. Photovoltaic modules constitute the photovoltaic array of a photovoltaic system that generates and supplies solar electricity in commercial and residential applications. Each module is rated by its DC output power under standard test conditions (STC), and typically ranges from 100 to 365 Watts (W). The efficiency of a module determines the area of a module given the same rated output – an 8% efficient 230 W module will have twice the area of a 16% efficient 230 W module.</p>
         </div>
         </div>
     
@@ -61,7 +61,7 @@
         </div>
         
         <div class="l6 s12 col">
-            <p>Nam ac justo in arcu vehicula sagittis eget et nulla. Donec varius purus nisi, ac egestas turpis fermentum non. Fusce feugiat volutpat ligula ac vulputate. Donec purus ex, imperdiet ac aliquam nec, blandit non velit. In hac habitasse platea dictumst. Interdum et malesuada fames ac ante ipsum primis in faucibus. Suspendisse sagittis pellentesque ultricies. Nullam egestas risus nec nunc tristique suscipit. Nullam at ligula nunc. Suspendisse potenti. Nulla a feugiat diam.</p>
+            <p>See some of the projects we've been working on. We do lots of work for the Central Valley and surrounding areas. We take pride in the quality of our work, so feel free to look through the things we've been doing around here.</p>
         </div>
     </div>
     </div>
@@ -70,7 +70,7 @@
    <script>$(document).ready(function(){
       $('.parallax').parallax();
     $('.button-collapse').sideNav({
-            menuWidth: 300, // Default is 300
+            menuWidth: 200, // Default is 300
             closeOnClick: true, // Closes side-nav on <a> clicks, useful for Angular/Meteor
             draggable: true // Choose whether you can drag to open on touch screens
         });

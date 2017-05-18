@@ -52,7 +52,7 @@
 
         <h6>We specialize in all of your underground service needs from installation to repaid. In addition to our contract fulfillment services, we offer:</h6>
 
-        <ul style="padding-left: 20px;">
+        <ul style="padding-left: 20px; font-size: 20px;">
             <li>Trench Services</li>
             <li>Backhoe Services</li>
             <li>Directional Boring</li>
@@ -72,10 +72,13 @@
     </div>
         </div>
 </div>
-   <div style="padding: 20px;"></div>
-    <?php require('footer.php');?>
-     <script>$(document).ready(function(){
+   <?php require('footer.php');?>
+   <script>$(document).ready(function(){
       $('.parallax').parallax();
-    $(".button-collapse").sideNav();
+    $('.button-collapse').sideNav({
+            menuWidth: 200, // Default is 300
+            closeOnClick: true, // Closes side-nav on <a> clicks, useful for Angular/Meteor
+            draggable: true // Choose whether you can drag to open on touch screens
+        });
     });</script>
     <!--== END ABOUT PAGE CONTENT ==-->
