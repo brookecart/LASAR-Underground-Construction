@@ -27,8 +27,12 @@
             <p class="white-text">2545 N. Sunnyside Ave.</p>
         </div>
 
-        <div class="l6 s12 col">
+        <div class="l6 s12 col hide-on-small-only">
         <img src="img/seals.png">
+        </div>
+
+   <div class="l6 s12 col hide-on-med-and-up">
+        <img src="img/seals-half.png">
         </div>
 
     </div>
