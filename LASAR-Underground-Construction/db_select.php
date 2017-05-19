@@ -3,6 +3,7 @@ require "db_conn.php";
 ?>
 <br>
 <?php
+
 $sql = "SELECT * FROM homepage";
 $result = $conn->query($sql);
 

@@ -23,7 +23,6 @@
                   </div>';
             } 
         ?>
-
         <ul id="dropdown1" class="dropdown-content green darken-2">
           <li><a class="white-text" href="Services.php?var=wiring#wiring">Wiring</a></li>
           <li><a class="white-text" href="Services.php?var=solar#solar">Solar</a></li>
