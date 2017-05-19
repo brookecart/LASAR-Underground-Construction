@@ -6,7 +6,7 @@
         </div>
     </div>
 
-    <div class="row center-align col container">
+    <div class="row center-align container">
         <h1 class="hide-on-small-only">About Our Company</h1>
         <h1 class="hide-on-med-and-up">About</h1>
     </div>
