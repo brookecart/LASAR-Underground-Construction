@@ -28,13 +28,11 @@
             </li>';
             } 
         ?>
-
         <ul id="dropdown1" class="dropdown-content green darken-2">
           <li><a class="white-text" href="Services.php?var=wiring#wiring">Wiring</a></li>
           <li><a class="white-text" href="Services.php?var=solar#solar">Solar</a></li>
           <li><a class="white-text" href="Services.php?var=other#other">Other</a></li>
         </ul>
-
             <ul class="side-nav" id="mobile-demo">
                 <li><div class="userView">
                   <a href="index.php"><span class="black-text name">LASAR Underground</span></a>

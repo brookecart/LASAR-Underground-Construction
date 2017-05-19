@@ -1,21 +1,3 @@
--- phpMyAdmin SQL Dump
--- version 4.5.1
--- http://www.phpmyadmin.net
---
--- Host: 127.0.0.1
--- Generation Time: May 18, 2017 at 09:41 PM
--- Server version: 10.1.13-MariaDB
--- PHP Version: 7.0.8
-
-SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
-SET time_zone = "+00:00";
-
-
-/*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;
-/*!40101 SET @OLD_CHARACTER_SET_RESULTS=@@CHARACTER_SET_RESULTS */;
-/*!40101 SET @OLD_COLLATION_CONNECTION=@@COLLATION_CONNECTION */;
-/*!40101 SET NAMES utf8mb4 */;
-
 --
 -- Database: `lasar`
 --
@@ -62,6 +44,13 @@ CREATE TABLE `homepage` (
   `links` text NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
+--
+-- Dumping data for table `homepage`
+--
+
+INSERT INTO `homepage` (`ContentID`, `Piece_Order`, `Headers`, `Image`, `text`, `links`) VALUES
+(1, 1, 'qwregf', 'wqef', 'qwrgqwerfv', 'qwerfqe');
+
 -- --------------------------------------------------------
 
 --
@@ -80,7 +69,6 @@ CREATE TABLE `mission statement` (
 
 CREATE TABLE `services` (
   `ContentID` int(11) NOT NULL,
-  `ServiceOrder` int(11) NOT NULL,
   `Service` tinytext NOT NULL,
   `Service_Image` longtext NOT NULL,
   `General_Text` longtext NOT NULL,
@@ -91,9 +79,9 @@ CREATE TABLE `services` (
 -- Dumping data for table `services`
 --
 
-INSERT INTO `services` (`ContentID`, `ServiceOrder`, `Service`, `Service_Image`, `General_Text`, `General_Image`) VALUES
-(1, 1, 'Wiring', '../Img/IMG_1564.jpeg', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.', 'Img/IMG_1602.jpeg'),
-(2, 2, 'Solar', '../Img/IMG_1503.jpeg', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.', 'Img/IMG_1602.jpeg');
+INSERT INTO `services` (`ContentID`, `Service`, `Service_Image`, `General_Text`, `General_Image`) VALUES
+(1, 'Wiring', '../Img/IMG_1564.jpeg', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.', 'Img/IMG_1602.jpeg'),
+(2, 'Solar', '../Img/IMG_1503.jpeg', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.', 'Img/IMG_1602.jpeg');
 
 --
 -- Indexes for dumped tables
@@ -141,7 +129,7 @@ ALTER TABLE `footeradditions`
 -- AUTO_INCREMENT for table `homepage`
 --
 ALTER TABLE `homepage`
-  MODIFY `ContentID` int(11) NOT NULL AUTO_INCREMENT;
+  MODIFY `ContentID` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=2;
 --
 -- AUTO_INCREMENT for table `services`
 --
