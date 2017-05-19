@@ -17,36 +17,11 @@
              <p class="flow-text">LASAR Undergound Construction, Inc. takes safety very seriously. We ensure all employees are educated in OSHA safety practices. Each employee gets a copy of the Safety and Illness Prevention Guide which is in all new employee packages. Employees are required to read, understand, and obey the practices of the guide. All employees undergo drug testing. LASAR Undergound Construction, Inc. conducts quarterly safety meetings with all staff. Our supervisors, foremen, and laborers also hold weekly "tailgate" meetings to review and address any new specific safety concerns or updates.<b> LASAR Underground Construction, Inc. is an equal opporunity employer.</b></p>
          </div>
 
- <ul style="margin-bottom: 70px;" class="collection container">
-
-    <li class="collection-item avatar">
-        <a href="#modal2"><i class="material-icons circle green">work</i></a>
-        <span class="title">Job Title</span>
-        <p>Short job description</p>
-        <a class="secondary-content"><i class="material-icons">grade</i></a>
-    </li>
-
-    <li class="collection-item avatar">
-        <a href="#modal2"><i class="material-icons circle green">work</i></a>
-        <span class="title">Job Title</span>
-        <p>Short job description</p>
-        <a class="secondary-content"><i class="material-icons">grade</i></a>
-    </li>
-
-    <li class="collection-item avatar">
-        <a href="#modal2"><i class="material-icons circle green">work</i></a>
-        <span class="title">Job Title</span>
-        <p>Short job description</p>
-        <a class="secondary-content"><i class="material-icons">grade</i></a>
-    </li>
-
-    <li class="collection-item avatar">
-        <a href="#modal2"><i class="material-icons circle green">work</i></a>
-        <span class="title">Job Title</span>
-        <p>Short job description</p>
-        <a class="secondary-content"><i class="material-icons">grade</i></a>
-    </li>
-  </ul>
+<div style="margin-bottom: 70px;" class="row">
+   <div class="col s12 center-align">
+    <a class="waves-effect waves-light btn-large white green-text text-darken-3" style="border: 2px solid #2e7d32; font-weight:500;" href="#modal2"><i class="material-icons left">assignment</i>Application</a>
+    </div>
+    </div>
 
     <div id="modal2" class="modal">
         <div class="modal-content">
