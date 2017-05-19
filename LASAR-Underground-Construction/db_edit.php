@@ -22,8 +22,8 @@
     <div class="large-12 columns">
         <form action="db_list.php" method="post">
           <?php
-            if (isset($_GET['pid'])) {
-                $ContentID = $_GET['pid'];
+            if (isset($_GET['ContentID'])) {
+                $ContentID = $_GET['ContentID'];
 
             } else {
                 echo "No record set";
@@ -50,8 +50,8 @@
            <label for="text">text</label>
            <input name="text" id="text" type="text" required value="<?php echo $row['text'];?>">
 
-           <label for="links">HTML</label>
-           <textarea name="links" id="links" cols="30" rows="20" required><?php echo $row['links'];?></textarea>
+           <label for="links">link</label>
+           <textarea name="links" id="links" type="text" required><?php echo $row['links'];?></textarea>
 
            <input type="submit"> <input type="reset">
            <?php }
