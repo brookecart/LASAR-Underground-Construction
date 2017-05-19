@@ -39,7 +39,7 @@
 
                  <button class="btn waves-effect waves-light green darken-3" type="submit" name="action" method="post">Submit
                     <i class="material-icons right">send</i>
-                  </button>
+                </button>
 
               </div>
              </div>

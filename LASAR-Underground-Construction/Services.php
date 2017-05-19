@@ -12,12 +12,23 @@ function active($var){
 
 require('navbar.php');
 ?>
-<br>
+
+<div class="parallax-container" style="width: 100%">
+    <div class="parallax">
+        <img src="img/IMG_1564.jpeg" alt="Space" style="display:block">
+    </div>
+</div>
+
+<div class="row center-align container">
+    <h1>Services</h1>
+</div>
+
     <div class="row col m6 container">
-       <h1 style="font-size:90px;">Services</h1>
         <ul class="collapsible green darken-3 col m12"  style="padding:0;" data-collapsible="accordion" >
             <li>
-              <div id="wiring" class="collapsible-header service service-1 <?php active('wiring'); ?>"><i class="material-icons"></i><h1 class="serviceTxt left-align">Wiring</h1></div>
+              <div id="wiring" class="collapsible-header service service-1 <?php active('wiring'); ?>"><i class="material-icons"></i>
+                  <h1 class="serviceTxt left-align">Wiring</h1>
+                </div>
               <div class="collapsible-body">
                   <?php imgText("Img/IMG_1602.jpeg", "Lorem ipsum"); ?>
               </div>
