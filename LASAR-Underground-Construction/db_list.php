@@ -8,6 +8,7 @@
                     editPage($_POST['HTML'], $_POST['Keywords'], $_POST['Description'], $_POST['Title'], $_POST['Nav_Name'], $_POST['pid']);
                 }
 
+
     /*        
     } else {
         header('Location: login.php');
