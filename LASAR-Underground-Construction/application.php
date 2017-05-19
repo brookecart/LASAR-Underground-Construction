@@ -14,7 +14,7 @@
     </div>
 
     <div style="padding-bottom: 30px;" class="container s12">
-             <p class="flow-text">LASAR Undergound Consttruction, Inc. takes safety very seriously. We ensure all employees are educated in OSHA safety practices. Each employee gets a copy of the Safety and Illness Prevention Guide which is in all new employee packages. Employees are required to read, understand, and obey the practices of the guide. All employees undergo drug testing. LASAR Undergound Construction, Inc. conducts quarterly safety meetings with all staff. Our supervisors, foremen, and laborers also hold weekly "tailgate" meetings to review and address any new specific safety concerns or updates.<b> LASAR Underground Construction, Inc. is an equal opporunity employer.</b></p>
+             <p class="flow-text">LASAR Undergound Construction, Inc. takes safety very seriously. We ensure all employees are educated in OSHA safety practices. Each employee gets a copy of the Safety and Illness Prevention Guide which is in all new employee packages. Employees are required to read, understand, and obey the practices of the guide. All employees undergo drug testing. LASAR Undergound Construction, Inc. conducts quarterly safety meetings with all staff. Our supervisors, foremen, and laborers also hold weekly "tailgate" meetings to review and address any new specific safety concerns or updates.<b> LASAR Underground Construction, Inc. is an equal opporunity employer.</b></p>
          </div>
 
  <ul style="margin-bottom: 70px;" class="collection container">
@@ -56,8 +56,9 @@
       </div>
 
 <?php require('footer.php');?>
-    <script>$(document).ready(function(){
-      $('.parallax').parallax();
+    <script>
+$(document).ready(function(){
+    $('.parallax').parallax();
     $('.button-collapse').sideNav({
             menuWidth: 200, // Default is 300
             closeOnClick: true, // Closes side-nav on <a> clicks, useful for Angular/Meteor
@@ -72,4 +73,5 @@
       endingTop: '10%', // Ending top style attribute
     }
   );
-    });</script>
+    });
+</script>
