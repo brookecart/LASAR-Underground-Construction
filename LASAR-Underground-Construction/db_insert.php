@@ -11,39 +11,43 @@
 ?>
 <?php require('navbar.php');
 
-$ContentID = "SELECT ContentID FROM homepage";
-$sql = "SELECT * FROM homepage WHERE ContentID=$ContentID LIMIT 1";
-            $result = $conn->query($sql);
 
-            if ($result->num_rows > 0) {
-                // output data of each row
-                while($row = $result->fetch_assoc()) { ?>
+    //$ContentID = "SELECT ContentID FROM homepage";
+    $ContentID = 2;
+    $sql = "SELECT * FROM homepage WHERE ContentID=$ContentID LIMIT 1";
+                $result = $conn->query($sql);
 
-  <div class="row">
-    <div class="large-12 columns">
-        <form action="db_insert.php" method="post">
-           <label for="Title">Title</label>
-           <input name="Title" id="Title" type="text" required>
+                if ($result->num_rows > 0) {
+                    // output data of each row
+                    while($row = $result->fetch_assoc()) { ?>
 
-           <label for="Nav_Name">Navigation Name</label>
-           <input name="Nav_Name" id="Nav_Name" type="text" required>
+      <div class="row">
+        <div class="large-12 columns">
+            <form action="db_insert.php" method="post">
+               <label for="Title">Title</label>
+               <input name="Title" id="Title" type="text" required>
 
-           <label for="Keywords">Keywords</label>
-           <input name="Keywords" id="Keywords" type="text" required>
+               <label for="Nav_Name">Navigation Name</label>
+               <input name="Nav_Name" id="Nav_Name" type="text" required>
 
-           <label for="Description">Description</label>
-           <input name="Description" id="Description" type="text" required>
+               <label for="Keywords">Keywords</label>
+               <input name="Keywords" id="Keywords" type="text" required>
 
-           <label for="HTML">HTML</label>
-           <textarea name="HTML" id="HTML" cols="30" rows="20" required></textarea>
+               <label for="Description">Description</label>
+               <input name="Description" id="Description" type="text" required>
 
-           <input type="submit"> <input type="reset">
-        </form>
+               <label for="HTML">HTML</label>
+               <textarea name="HTML" id="HTML" cols="30" rows="20" required></textarea>
+
+               <input type="submit"> <input type="reset">
+            </form>
+        </div>
     </div>
-</div>
-       <?php
-        }    
-        } ?>
+           <?php
+            }    
+            } ?>
+
+        
 <?php        
 $sql = "SELECT * FROM addabout WHERE ContentID=$ContentID LIMIT 1";
             $result = $conn->query($sql);
