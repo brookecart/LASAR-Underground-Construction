@@ -59,9 +59,9 @@ function addAbout($AboutOrder, $AboutHeader, $AboutText, $NewImage) {
 
 
 /* ---------- Edit about ---------- */
-function updateAbout($AboutOrder, $AboutHeader, $AboutText, $NewImage, $pid) {
+function updateAbout($AboutOrder, $AboutHeader, $AboutText, $NewImage, $ContentID) {
     global $conn;
-    $sql = "UPDATE addabout SET AboutOrder='$AboutOrder', AboutHeader='$AboutHeader', AboutText='$AboutText', NewImage='$NewImage' WHERE ContentID=$pid";
+    $sql = "UPDATE addabout SET AboutOrder='$AboutOrder', AboutHeader='$AboutHeader', AboutText='$AboutText', NewImage='$NewImage' WHERE ContentID=$ContentID";
 
     if ($conn->query($sql) === TRUE) {
         echo "Page updated.";
@@ -73,7 +73,7 @@ function updateAbout($AboutOrder, $AboutHeader, $AboutText, $NewImage, $pid) {
 /* ---------- Edit footer ---------- */
 function updateFooter($company, $Contact, $Locations, $pid) {
     global $conn;
-    $sql = "UPDATE footeradditions SET company='$company', Contact='$Contact', Locations='$Locations' WHERE ContentID=$pid";
+    $sql = "UPDATE footeradditions SET company='$company', Contact='$Contact', Locations='$Locations' WHERE ContentID=$ContentID";
 
     if ($conn->query($sql) === TRUE) {
         echo "Page updated.";
@@ -83,9 +83,9 @@ function updateFooter($company, $Contact, $Locations, $pid) {
 ;}
 
 /* ---------- Edit homepage ---------- */
-function updateHomepage($Piece_Order, $Headers, $Image, $Text, $links, $pid) {
+function updateHomepage($Piece_Order, $Headers, $Image, $Text, $links, $ContentID) {
     global $conn;
-    $sql = "UPDATE homepage SET Piece_Order='$Piece_Order', Headers='$Headers', Image='$Image', Text='$Text', links='$links' WHERE ContentID=$pid";
+    $sql = "UPDATE homepage SET Piece_Order='$Piece_Order', Headers='$Headers', Image='$Image', Text='$Text', links='$links' WHERE ContentID=$ContentID";
 
     if ($conn->query($sql) === TRUE) {
         echo "Page updated.";
@@ -97,7 +97,7 @@ function updateHomepage($Piece_Order, $Headers, $Image, $Text, $links, $pid) {
 /* ---------- Edit Mission State ---------- */
 function updatePage($Statement, $pid) {
     global $conn;
-    $sql = "UPDATE mission statement SET Statement='$Statement' WHERE ContentID=$pid";
+    $sql = "UPDATE mission statement SET Statement='$Statement' WHERE ContentID=$ContentID";
 
     if ($conn->query($sql) === TRUE) {
         echo "Page updated.";
@@ -107,9 +107,9 @@ function updatePage($Statement, $pid) {
 ;}
 
 /* ---------- Edit Services ---------- */
-function updateServices($ServiceOrder, $Service, $Service_Image, $General_Text, $General_Image, $pid) {
+function updateServices($ServiceOrder, $Service, $Service_Image, $General_Text, $General_Image, $ContentID) {
     global $conn;
-    $sql = "UPDATE services SET ServiceOrder='$ServiceOrder', Service='$Service', Service_Image='$Service_Image', General_Text='$General_Text', General_Image='$General_Image' WHERE ContentID=$pid";
+    $sql = "UPDATE services SET ServiceOrder='$ServiceOrder', Service='$Service', Service_Image='$Service_Image', General_Text='$General_Text', General_Image='$General_Image' WHERE ContentID=$ContentID";
 
     if ($conn->query($sql) === TRUE) {
         echo "Page updated.";
