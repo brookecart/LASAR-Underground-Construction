@@ -11,25 +11,28 @@
 </head>
    <body>
          <?php 
-            function imgText($imgSrc, $lsrText) {
+            function imgText($divId, $serV, $naMe, $imgSrc, $lsrText) {
                 //function to make an image with text next to it
-                echo '<div class="row" style="background-color:white; padding-top:15px; padding-bottom:15px;">
+                echo '<li>
+              <div id="' . $divId . '" class="collapsible-header service service-' . $serV . ' ' . active("solar") . '"><i class="material-icons"></i><h2 class="serviceTxt left-align">' . $naMe . '</h2></div>
+              <div class="collapsible-body">
+                  <div class="row" style="background-color:white; padding-top:15px; padding-bottom:15px;">
                       <div class="col m7">
                           <img src=' . $imgSrc . ' alt="hi" style="max-width:100%;">
                       </div>
                       <div class="col m5">
                           <p>' . $lsrText . '</p>
                       </div>
-                  </div>';
+                  </div>
+              </div>
+            </li>';
             } 
         ?>
-
         <ul id="dropdown1" class="dropdown-content green darken-2">
           <li><a class="white-text" href="Services.php?var=wiring#wiring">Wiring</a></li>
           <li><a class="white-text" href="Services.php?var=solar#solar">Solar</a></li>
           <li><a class="white-text" href="Services.php?var=other#other">Other</a></li>
         </ul>
-
             <ul class="side-nav" id="mobile-demo">
                 <li><div class="userView">
                   <a href="index.php"><span class="black-text name">LASAR Underground</span></a>
