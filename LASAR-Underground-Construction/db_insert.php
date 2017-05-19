@@ -1,12 +1,13 @@
 <?php
     require('db_conn.php');
-    if ($_SESSION['isadmin'] == 1){
-        if (isset($_POST['Title'])){
+
+   /* if ($_SESSION['isadmin'] == 1){
+        if (isset($_POST['Title'])){ */
             addPage($_POST['HTML'], $_POST['Keywords'], $_POST['Description'], $_POST['Title'], $_POST['Nav_Name']);
-        }
+   /*     }
     } else {
         header('Location: login.php');
-    }
+    } */
 ?>
 <!DOCTYPE html>
 <html lang="en">

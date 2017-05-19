@@ -58,6 +58,37 @@
             } else {
                 echo "Failed to load content.";
             }
+            
+            $sql = "SELECT * FROM addabout WHERE ContentID=$ContentID LIMIT 1";
+            $result = $conn->query($sql);
+
+            if ($result->num_rows > 0) {
+                // output data of each row
+                while($row = $result->fetch_assoc()) { ?>
+
+
+           <input type="hidden" name="ContentID" value="<?php echo $row['ContentID'];?>" >
+
+           <label for="Company">Piece_Order</label>
+           <input name="Piece_Order" id="Piece_Order" type="text" required value="<?php echo $row['Piece_Order'];?>">
+
+           <label for="Headers">Headers</label>
+           <input name="Headers" id="Headers" type="text" required value="<?php echo $row['Headers'];?>">
+
+           <label for="Image">Image</label>
+           <input name="Image" id="Image" type="text" required value="<?php echo $row['Image'];?>">
+
+           <label for="text">text</label>
+           <input name="text" id="text" type="text" required value="<?php echo $row['text'];?>">
+
+           <label for="links">HTML</label>
+           <textarea name="links" id="links" cols="30" rows="20" required><?php echo $row['links'];?></textarea>
+
+           <input type="submit"> <input type="reset">
+           <?php }
+            } else {
+                echo "Failed to load content.";
+            }
            ?>
         </form>
     </div>
