@@ -37,7 +37,7 @@
 
             <ul class="side-nav" id="mobile-demo">
                 <li><div class="userView">
-                  <a><span class="black-text name">LASAR Underground</span></a>
+                  <a href="index.php"><span class="black-text name">LASAR Underground</span></a>
                 </div></li>
                <li><a href="Services.php">Services</a></li>
                <li><a href="about.php">About us</a></li>

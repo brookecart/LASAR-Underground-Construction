@@ -12,9 +12,18 @@ function active($var){
 
 require('navbar.php');
 ?>
-<br>
+
+<div class="parallax-container" style="width: 100%">
+    <div class="parallax">
+        <img src="img/IMG_1564.jpeg" alt="Space" style="display:block">
+    </div>
+</div>
+
+<div class="row center-align container">
+    <h1>Services</h1>
+</div>
+
     <div class="row col m6 container">
-       <h1 style="font-size:90px;">Services</h1>
         <ul class="collapsible green darken-3 col m12"  style="padding:0;" data-collapsible="accordion" >
             <?php imgText("wiring", "1", "Wiring", "Img/IMG_1602.jpeg", "Lorem ipsum"); ?>
             <?php imgText("solar", "2", "Solar", "Img/IMG_1602.jpeg", "Lorem ipsum"); ?>

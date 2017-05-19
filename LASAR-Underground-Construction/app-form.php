@@ -1,4 +1,4 @@
- <div class="wrapper">
+<div class="wrapper">
         <div class="row">
          <form action="form.php" method="get">
 
@@ -49,11 +49,11 @@
    <div class="input-field col s12">
      <textarea id="?2" class="materialize-textarea" data-length="500"></textarea>
         <label for="?2">Give a breif summary of your credentials</label>
- <button class="btn waves-effect waves-light green darken-3" type="submit" name="action" method="post">Submit
-    <i class="material-icons right">send</i>
-</button>
+     <button class="btn waves-effect waves-light green darken-3" type="submit" name="action" method="post">Submit
+        <i class="material-icons right">send</i>
+    </button>
 </div>
 </div>
-            </form>
-     </div>
+</form>
+</div>
 </div>
