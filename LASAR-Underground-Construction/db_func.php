@@ -1,17 +1,4 @@
 <?php
-session_start();
-$servername = "localhost";
-$username = "cartweba_student";
-$password = "O1sSKzrs75bc";
-$dbname = "cartweba_pp";
-
-// Create connection
-$conn = new mysqli($servername, $username, $password, $dbname);
-
-// Check connection
-if ($conn->connect_error) {
-    die("Connection failed: " . $conn->connect_error);
-};
 /* ---------- DB functions ---------- */
 
 /* --------------------------------- Additions ----------------------------- */

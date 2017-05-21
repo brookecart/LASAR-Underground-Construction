@@ -1,15 +1,16 @@
 <?php
+
+
 if(isset($_GET['var'])){
     $active = $_GET['var'];
 }
 
 function active($var){
     global $active;
-    if($var == $active) {
-        echo "active";
+    if($var == $active) { 
+        echo 'active';
     }
 }
-
 require('navbar.php');
 ?>
 
@@ -25,9 +26,17 @@ require('navbar.php');
 
     <div class="row col m6 container">
         <ul class="collapsible green darken-3 col m12"  style="padding:0;" data-collapsible="accordion" >
-            <?php imgText("wiring", "1", "Wiring", "Img/IMG_1602.jpeg", "Lorem ipsum"); ?>
-            <?php imgText("solar", "2", "Solar", "Img/IMG_1602.jpeg", "Lorem ipsum"); ?>
-            <?php imgText("other", "3", "Other", "Img/IMG_1602.jpeg", "Lorem ipsum"); ?>
+            <?php 
+                $sql = "SELECT `ContentID`, `Service`, `Service_Image`, `General_Text`, `General_Image` FROM `services` WHERE 1";
+                $result = $conn->query($sql);
+
+                if ($result->num_rows > 0) {
+                    // output data of each row
+                    while($row = $result->fetch_assoc()) {
+                        imgText($row["Service"],$row["Service_Image"], $row["Service"], $row["General_Image"], $row["General_Text"], $row["ContentID"], $row["Service"]);
+                    } 
+                }
+            ?>
         </ul>
     </div>
 

@@ -1,44 +1,136 @@
 <?php
     require('db_conn.php');
-     /* if ($_SESSION['isadmin'] == 1){ */
-                if (isset($_GET['del'])){
-                    deletePage($_GET['del']);
+     if ($_SESSION['isadmin'] == 1){
+
+        ///////////////////////////////////////// Delete Functions
+                require('navbar.php');
+                if (isset($_GET["Dselect"])) {
+                    switch ($_GET["Dselect"]) {
+                        case "Homepage":
+                           deleteHPRow($_GET['del']);
+                        break;
+                            
+                        case "About":
+                           deleteAbout($_GET['del']);
+                        break;
+                            
+                        case "Services":
+                           deleteService($_GET['del']);
+                        break;
+                        default:
+                            echo "nothing deleted";
+                    }
                 }
-                if (isset($_POST['Title'])){
-                    editPage($_POST['HTML'], $_POST['Keywords'], $_POST['Description'], $_POST['Title'], $_POST['Nav_Name'], $_POST['pid']);
+        //////////////////////////////////////// Update functions
+                if (isset($_POST['Headers'])){
+                    updateHomepage($_POST['Piece_Order'], $_POST['Headers'], $_POST['Image'], $_POST['text'], $_POST['links'], $_POST['ContentID']);
                 }
 
+                if (isset($_POST['Service'])){
+                    updateServices($_POST['Service'], $_POST['Service_Image'], $_POST['General_Text'], $_POST['General_Image'], $_POST['ContentID']);
+                }
 
-    /*
+                if (isset($_POST['Copyright'])){
+                    updateFooter($_POST['Company'], $_POST['Contact'], $_POST['Locations'], $_POST['Copyright'], $_POST['ContentID']);
+                }
+
+                if (isset($_POST['AboutHeader'])){
+                    updateAbout($_POST['AboutOrder'], $_POST['AboutHeader'], $_POST['AboutText'], $_POST['NewImage'], $_POST['ContentID']);
+                }
+                if (isset($_POST['Statement'])){
+                    updateMission($_POST['Statement']);
+                }
+
+    
     } else {
         header('Location: login.php');
-    }; */
+    }; 
 
- require('navbar.php'); ?>
-    <div class="large-12 columns">
-    <h1>Pages to Edit</h1>
+  ?>
+<div class="container row">
+    <div class="col">
+    <h2>Homepage</h2>
     <?php
+        $sql = "SELECT Statement FROM mission";
+        $result = $conn->query($sql);
+
+        if ($result->num_rows > 0) {
+            // output data of each row
+            while($row = $result->fetch_assoc()) {
+                echo "<a href='db_edit.php?Page=Mission'>Mission Statement</a><br><br>";
+            }
+        } else {
+            echo "Error: No Mission statement.<br><br>";
+        }
+    //////
         $sql = "SELECT ContentID, Headers FROM homepage";
         $result = $conn->query($sql);
 
         if ($result->num_rows > 0) {
             // output data of each row
             while($row = $result->fetch_assoc()) {
-                echo "<a href='db_edit.php?pid=".$row['ContentID']."'>".$row['Headers']."</a> | <a style='color:red;' href='?del=".$row['ContentID']."'>(del)</a><br>";
+                echo "<a href='db_edit.php?ContentID=".$row['ContentID']."&Page=Homepage'>".$row['Headers']."</a> | <a style='color:red;' href='?del=".$row['ContentID']."&Dselect=Homepage'>(delete)</a><br>";
             }
         } else {
-            echo "Failed to load content.";
+            echo "No Homepage Rows Added.";
         }
-    ?>
-    <br>
-    <a href="db_insert.php" class="button">Add a Page</a>
-    <a href="login.php?logout" class="button alert">Logout</a>
-    </div>
+        echo "<a href='db_insert.php?Page=Homepage' class='button'>Add a Homepage Row</a> <br> <br>";
+//////////////////////////////////////////////////////////////        
+        
+       echo "<h2>Services page</h2>";
+        
+        $sql = "SELECT ContentID, Service FROM services";
+        $result = $conn->query($sql);
 
-    <script src="js/vendor/jquery.js"></script>
-    <script src="js/vendor/what-input.js"></script>
-    <script src="js/vendor/foundation.js"></script>
-    <script src="js/app.js"></script>
-</body>
-</html>
-<?php $conn->close(); ?>
+        if ($result->num_rows > 0) {
+            // output data of each row
+            while($row = $result->fetch_assoc()) {
+                echo "<a href='db_edit.php?ContentID=".$row['ContentID']."&Page=Services'>".$row['Service']."</a> | <a style='color:red;' href='?del=".$row['ContentID']."&Dselect=Services'>(delete)</a><br>";
+            }
+        } else {
+            echo "No Services Rows Added.";
+        }
+        echo "<a href='db_insert.php?Page=Services' class='button'>Add a Service</a> <br> <br>";
+///////////////////////////////////////////////////////////////        
+        echo "<h2>About page</h2>";
+        
+        $sql = "SELECT ContentID, AboutHeader FROM addabout";
+        $result = $conn->query($sql);
+
+        if ($result->num_rows > 0) {
+            // output data of each row
+            while($row = $result->fetch_assoc()) {
+                echo "<a href='db_edit.php?ContentID=".$row['ContentID']."&Page=AddAbout'>".$row['AboutHeader']."</a> | <a style='color:red;' href='?del=".$row['ContentID']."&Dselect=About'>(delete)</a><br>";
+            }
+        } else {
+            echo "No About Rows Added.";
+        }
+        echo "<a href='db_insert.php?Page=AddAbout' class='button'>Add an About Row</a> <br> <br>";
+    /////////////////////////////////////////////////////////
+        echo "<h3>Footer</h3>";
+        $sql = "SELECT * FROM `footeradditions` WHERE 1";
+        $result = $conn->query($sql);
+
+            if ($result->num_rows > 0) {
+                // output data of each row
+                while($row = $result->fetch_assoc()) {
+                   echo "<a href='db_edit.php?ContentID=".$row['ContentID']."&Page=Footer'>Change Footer</a>";
+                }
+            } else {
+                echo "Error: No Footer Found";
+            }
+        ?>
+    <br><br><br>
+    <a href="login.php?logout" class="button alert">Logout</a> <br> <br>
+    </div>
+    
+    <div class="col" style="margin-left:5rem;">
+        <h2>Special Instructions</h2>
+        <ul class="service-text">
+            <li>Do not use an ' in any writing area</li>
+            <li></li>
+        </ul>
+    </div>
+</div>
+<?php require('footer.php');
+        $conn->close(); ?>

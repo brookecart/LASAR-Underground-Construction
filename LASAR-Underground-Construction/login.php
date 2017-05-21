@@ -11,16 +11,16 @@
 <body id="login">
 
   <div class="row">
-    <div class="large-4 small-centered columns">
+    <div class="col">
         <form method="post" action="login.php">
             <br>
-            <input name="un" type="text" placeholder="username">
-            <input name="pw" type="password" placeholder="password">
-            <input class="button" type="submit"  value="Login">
+            <input name="un" id="un" type="text" placeholder="username">
+            <input name="pw" id="pw" type="password" placeholder="password">
+            <input class="button" type="submit" value="Login">
         </form>
     </div>
 </div>
 
 
-<?php require('footer.php');?>
-<?php $conn->close(); ?>
+<?php require('footer.php');
+ $conn->close(); ?>

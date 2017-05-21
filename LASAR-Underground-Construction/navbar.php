@@ -10,18 +10,18 @@
     <title>LASAR</title>
 </head>
    <body>
-         <?php 
-            function imgText($divId, $serV, $naMe, $imgSrc, $lsrText) {
+         <?php
+            require('db_conn.php');
+            function imgText($divId, $imgName, $naMe, $imgSrc, $lsrText, $alt, $current) {
                 //function to make an image with text next to it
                 echo '<li>
-              <div id="' . $divId . '" class="collapsible-header service service-' . $serV . ' ' . active("solar") . '"><i class="material-icons"></i><h2 class="serviceTxt left-align">' . $naMe . '</h2></div>
+              <div id="' . $divId . '" class="collapsible-header service '; active($current);
+                echo '"                                                               style="background-image:url(img/'.$imgName.');                                background-position:left;">                                                     <i class="material-icons"></i><h2 class="serviceTxt left-align">' . $naMe . '</h2></div>
               <div class="collapsible-body">
                   <div class="row" style="background-color:white; padding-top:15px; padding-bottom:15px;">
-                      <div class="col m7">
-                          <img src=' . $imgSrc . ' alt="hi" style="max-width:100%;">
-                      </div>
-                      <div class="col m5">
-                          <p>' . $lsrText . '</p>
+                      <div class="col service-text">
+                          <img src="img/'. $imgSrc . '" alt="Image'.$alt.'" style="width:30rem; margin-right:20px;" align="left"> 
+                          ' . $lsrText . '
                       </div>
                   </div>
               </div>
@@ -29,9 +29,21 @@
             } 
         ?>
         <ul id="dropdown1" class="dropdown-content green darken-2">
+            <?php 
+                $sql = "SELECT `ContentID`, `Service`, `Service_Image`, `General_Text`, `General_Image` FROM `services` WHERE 1";
+                $result = $conn->query($sql);
+
+                if ($result->num_rows > 0) {
+                    // output data of each row
+                    while($row = $result->fetch_assoc()) {
+                        echo "<li><a class='white-text' href='Services.php?var=".$row['Service']."#".$row['Service']."'>".$row['Service']."</a></li>";
+                    }
+                } 
+            /*
+            ?>
           <li><a class="white-text" href="Services.php?var=wiring#wiring">Wiring</a></li>
-          <li><a class="white-text" href="Services.php?var=solar#solar">Solar</a></li>
-          <li><a class="white-text" href="Services.php?var=other#other">Other</a></li>
+          <li><a class="white-text" href="Services.php?var=Solar#Solar">Solar</a></li>
+          <li><a class="white-text" href="Services.php?var=other#other">Other</a></li> <?php */ ?>
         </ul>
             <ul class="side-nav" id="mobile-demo">
                 <li><div class="userView">

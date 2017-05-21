@@ -10,3 +10,6 @@ $(document).ready(function(){
             hover: false
         });
     });
+
+
+// document.getElementById("text").innerHTML = "<?php echo $row['text'];?>";

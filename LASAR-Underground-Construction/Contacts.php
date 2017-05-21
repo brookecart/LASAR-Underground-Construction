@@ -1,4 +1,4 @@
-<?php require('navbar.php');?>
+<?php require('navbar.php'); ?>
 <div class="parallax-container" style="width: 100%">
           <div class="parallax">
             <img src="img/IMG_1503.jpeg" alt="Space" style="display:block">
