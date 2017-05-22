@@ -161,11 +161,11 @@ function doLogin($un,$pw){
     if( $un == $adminun && $pw == $adminpw){
         $_SESSION['isadmin'] = 1;
         header('Location: db_list.php');
-        echo "Login Success";
+        //echo "Login Success";
     } else {
         $_SESSION['isadmin'] = 0;
         header('Location: login.php');
-        echo "Login Fail";
+        //echo "Login Fail";
     }
     
 }

@@ -1,5 +1,5 @@
 <?php
-    require('db_conn.php');
+    require('navbar.php');
     if ($_SESSION['isadmin'] == 1){
         if (isset($_POST['Headers'])){ 
             addHPRow($_POST['Piece_Order'], $_POST['Headers'], $_POST['Image'], $_POST['text'], $_POST['links']);
@@ -22,7 +22,7 @@
         header('Location: login.php');
     }
 ?>
-<?php require('navbar.php'); ?>
+<?php  ?>
 
 <?php
     switch ($_GET["Page"]) {

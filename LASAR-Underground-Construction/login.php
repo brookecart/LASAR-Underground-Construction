@@ -1,5 +1,5 @@
 <?php
-    require('db_conn.php');
+    require('navbar.php');
     if(isset($_GET['logout'])){
         doLogout();
     }
@@ -7,7 +7,7 @@
         doLogin($_POST['un'],$_POST['pw']);
     }
 ?>
-<?php require('navbar.php');?>
+<?php ?>
 <body id="login">
 
   <div class="row">

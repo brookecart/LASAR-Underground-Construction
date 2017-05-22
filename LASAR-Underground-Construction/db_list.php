@@ -1,9 +1,9 @@
 <?php
-    require('db_conn.php');
+    require('navbar.php');
      if ($_SESSION['isadmin'] == 1){
 
         ///////////////////////////////////////// Delete Functions
-                require('navbar.php');
+                
                 if (isset($_GET["Dselect"])) {
                     switch ($_GET["Dselect"]) {
                         case "Homepage":
@@ -42,9 +42,7 @@
                 }
 
     
-    } else {
-        header('Location: login.php');
-    }; 
+    };
 
   ?>
 <div class="container row">

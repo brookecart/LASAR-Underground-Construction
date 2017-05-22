@@ -1,12 +1,11 @@
 <?php
-    require('db_conn.php');
+    require('navbar.php')
     if ($_SESSION['isadmin'] == 1){
     } else {
         header('Location: login.php');
     }
     
 ?>
-  <?php require('navbar.php'); 
     
     ?>
 
