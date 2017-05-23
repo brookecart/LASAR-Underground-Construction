@@ -86,7 +86,7 @@
                    <textarea name="AboutText" id="AboutText" rows="5" required> </textarea>
 
                    <label for="NewImage">Image Directory</label>
-                   <input name="NewImage" id="NewImage" type="text" required>
+                   <input name="NewImage" id="NewImage" type="text">
                     
                     <input name="secret3" id="secret3" type="hidden" value="yes">
 
