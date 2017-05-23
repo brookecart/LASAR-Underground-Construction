@@ -1,4 +1,5 @@
 <?php
+    session_start();
     require('log.php');
     if(isset($_GET['logout'])){
         doLogout();
@@ -6,6 +7,7 @@
     if(isset($_POST['un'])){
         doLogin($_POST['un'],$_POST['pw']);
     }
+    $logPage = "yes";
     require('navbar.php');
 ?>
 <?php ?>

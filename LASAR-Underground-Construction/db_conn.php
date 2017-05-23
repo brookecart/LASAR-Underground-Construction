@@ -1,5 +1,8 @@
 <?php
-session_start();
+$logPage;
+if($logPage != "yes") {
+  session_start();  
+}
 $servername = "localhost";
 $username = "cartweba_student";
 $password = "O1sSKzrs75bc";
@@ -25,7 +28,7 @@ if ($conn->connect_error) {
 function addHPRow($Piece_Order, $Headers, $Image, $Text, $links) {
     global $conn;
     $sql = "INSERT INTO homepage (Piece_Order, Headers, Image, Text, links) VALUES ($Piece_Order, '$Headers', '$Image', '$Text', '$links')";
-
+    
     if ($conn->query($sql) === TRUE) {
         echo "New Row added to Homepage.";
     } else {

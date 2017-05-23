@@ -2,19 +2,17 @@
     require('navbar.php');
     require('log.php');
      if ($_SESSION['isadmin'] == 1){
-
         ///////////////////////////////////////// Delete Functions
-                
                 if (isset($_GET["Dselect"])) {
                     switch ($_GET["Dselect"]) {
                         case "Homepage":
                            deleteHPRow($_GET['del']);
                         break;
-                            
+                        
                         case "About":
                            deleteAbout($_GET['del']);
                         break;
-                            
+                        
                         case "Services":
                            deleteService($_GET['del']);
                         break;
