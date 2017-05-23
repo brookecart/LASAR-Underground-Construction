@@ -40,6 +40,18 @@
                 if (isset($_POST['Statement'])){
                     updateMission($_POST['Statement']);
                 }
+         /////////////////////////////////////// Adding Functions
+                if (isset($_POST['secret1'])){ 
+                    addHPRow($_POST['Piece_Order'], $_POST['Headers'], $_POST['Image'], $_POST['text'], $_POST['links']);
+                }
+
+                if (isset($_POST['secret2'])){ 
+                    addService($_POST['Service'], $_POST['Service_Image'], $_POST['General_Text'], $_POST['General_Image']);
+                }
+
+                if (isset($_POST['secret3'])){ 
+                    addAbout($_POST['AboutOrder'], $_POST['AboutHeader'], $_POST['AboutText'], $_POST['NewImage']);
+                }
 
     
     };
@@ -122,11 +134,11 @@
     <a href="login.php?logout" class="button alert">Logout</a> <br> <br>
     </div>
     
-    <div class="col" style="margin-left:5rem;">
-        <h2>Special Instructions</h2>
+    <div class="col s6" style="margin-left:5rem;">
+        <h3>Special Instructions</h3>
         <ul class="service-text">
-            <li>Do not use an ' in any writing area</li>
-            <li></li>
+            <li>Do not use an ' in any writing area</li> <br>
+            <li>When you add a page it will say there is an error, unless the new addition doesn't show up it's lying to you. There is in fact no real problem.</li>
         </ul>
     </div>
 </div>

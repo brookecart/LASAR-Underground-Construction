@@ -1,3 +1,4 @@
+<?php require('db_conn.php'); ?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -11,7 +12,6 @@
 </head>
    <body>
          <?php
-            require('db_conn.php');
             function imgText($divId, $imgName, $naMe, $imgSrc, $lsrText, $alt, $current) {
                 //function to make an image with text next to it
                 echo '<li>

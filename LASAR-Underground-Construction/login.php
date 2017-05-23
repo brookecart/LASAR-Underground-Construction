@@ -1,11 +1,12 @@
 <?php
-    require('navbar.php');
+    require('log.php');
     if(isset($_GET['logout'])){
         doLogout();
     }
     if(isset($_POST['un'])){
         doLogin($_POST['un'],$_POST['pw']);
     }
+    require('navbar.php');
 ?>
 <?php ?>
 <body id="login">

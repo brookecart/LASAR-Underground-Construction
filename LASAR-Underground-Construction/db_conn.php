@@ -3,7 +3,12 @@ session_start();
 $servername = "localhost";
 $username = "cartweba_student";
 $password = "O1sSKzrs75bc";
-$dbname = "cartweba_pp";
+$dbname = "cartweba_pp"; 
+/*
+$servername = "localhost";
+$username = "root";
+$password = "";
+$dbname = "lasar"; */
 
 // Create connection
 $conn = new mysqli($servername, $username, $password, $dbname);
@@ -19,7 +24,7 @@ if ($conn->connect_error) {
 /* ---------- Add a Homepage row ---------- */
 function addHPRow($Piece_Order, $Headers, $Image, $Text, $links) {
     global $conn;
-    $sql = "INSERT INTO homepage (Piece_Order, Headers, Image, Text, links) VALUES ('$Piece_Order', '$Headers', '$Image', '$Text', '$links')";
+    $sql = "INSERT INTO homepage (Piece_Order, Headers, Image, Text, links) VALUES ($Piece_Order, '$Headers', '$Image', '$Text', '$links')";
 
     if ($conn->query($sql) === TRUE) {
         echo "New Row added to Homepage.";
@@ -43,7 +48,7 @@ function addService($Service, $Service_Image, $General_Text, $General_Image) {
 /* ---------- Add an about  ---------- */
 function addAbout($AboutOrder, $AboutHeader, $AboutText, $NewImage) {
     global $conn;
-    $sql = "INSERT INTO addabout (AboutOrder, AboutHeader, AboutText, NewImage) VALUES ('$AboutOrder', '$AboutHeader', '$AboutText', '$NewImage')";
+    $sql = "INSERT INTO addabout (AboutOrder, AboutHeader, AboutText, NewImage) VALUES ($AboutOrder, '$AboutHeader', '$AboutText', '$NewImage')";
 
     if ($conn->query($sql) === TRUE) {
         echo "New About created.";
@@ -61,7 +66,7 @@ function addAbout($AboutOrder, $AboutHeader, $AboutText, $NewImage) {
 /* ---------- Edit about ---------- */
 function updateAbout($AboutOrder, $AboutHeader, $AboutText, $NewImage, $ContentID) {
     global $conn;
-    $sql = "UPDATE addabout SET AboutOrder='$AboutOrder', AboutHeader='$AboutHeader', AboutText='$AboutText', NewImage='$NewImage' WHERE ContentID=$ContentID";
+    $sql = "UPDATE addabout SET AboutOrder=$AboutOrder, AboutHeader='$AboutHeader', AboutText='$AboutText', NewImage='$NewImage' WHERE ContentID=$ContentID";
 
     if ($conn->query($sql) === TRUE) {
         echo "Page updated.";
@@ -85,7 +90,7 @@ function updateFooter($Company, $Contact, $Locations, $Copyright, $ContentID) {
 /* ---------- Edit homepage ---------- */
 function updateHomepage($Piece_Order, $Headers, $Image, $text, $links, $ContentID) {
     global $conn;
-    $sql = "UPDATE homepage SET Piece_Order='$Piece_Order', Headers='$Headers', Image='$Image', text='$text', links='$links' WHERE ContentID=$ContentID";
+    $sql = "UPDATE homepage SET Piece_Order=$Piece_Order, Headers='$Headers', Image='$Image', text='$text', links='$links' WHERE ContentID=$ContentID";
 
     if ($conn->query($sql) === TRUE) {
         echo "Page updated.";
@@ -153,24 +158,4 @@ function deleteService($ContentID) {
         echo "Error: " . $sql . "<br>" . $conn->error;
     }
 ;}
-
-/* ---------- Login ---------- */
-function doLogin($un,$pw){
-    $adminun = "LASAR";
-    $adminpw = "LSR28CO";
-    if( $un == $adminun && $pw == $adminpw){
-        $_SESSION['isadmin'] = 1;
-        header('Location: db_list.php');
-        //echo "Login Success";
-    } else {
-        $_SESSION['isadmin'] = 0;
-        header('Location: login.php');
-        //echo "Login Fail";
-    }
-    
-}
-function doLogout() {
-    $_SESSION['isadmin'] = 0;
-}
-
 ?>

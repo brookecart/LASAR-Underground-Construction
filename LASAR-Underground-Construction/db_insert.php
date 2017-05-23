@@ -1,17 +1,6 @@
 <?php
     require('navbar.php');
     if ($_SESSION['isadmin'] == 1){
-        if (isset($_POST['Headers'])){ 
-            addHPRow($_POST['Piece_Order'], $_POST['Headers'], $_POST['Image'], $_POST['text'], $_POST['links']);
-        }
-
-        if (isset($_POST['Service'])){ 
-            addService($_POST['Service'], $_POST['Service_Image'], $_POST['General_Text'], $_POST['General_Image']);
-        }
-
-        if (isset($_POST['AboutHeader'])){ 
-            addAbout($_POST['AboutOrder'], $_POST['AboutHeader'], $_POST['AboutText'], $_POST['NewImage']);
-        }
         
         if (isset($_GET["Page"])) {
             
@@ -31,10 +20,10 @@
 ?>
           <div class="row">
             <div class="large-12 columns">
-                <form action="db_insert.php" method="post">
+                <form action="db_list.php" method="post">
                     
-                   <label for="Piece_Order">Order Rank</label>
-                   <input name="Piece_Order" id="Piece_Order" type="number" required>
+                   <!-- <label for="Piece_Order">Order Rank</label> -->
+                   <input name="Piece_Order" id="Piece_Order" type="hidden" value="1" required>
 
                    <label for="Headers">Header</label>
                    <input name="Headers" id="Headers" type="text" required>
@@ -47,6 +36,8 @@
 
                    <label for="links">Link to page (Example: index.php) </label>
                    <input name="links" id="links" type="text">
+                    
+                   <input name="secret1" id="secret1" type="hidden" value="yes">
 
                    <input type="submit"> <input type="reset">
                 </form>
@@ -58,7 +49,7 @@
 ?>
           <div class="row">
             <div class="large-12 columns">
-                <form action="db_insert.php" method="post">
+                <form action="db_list.php" method="post">
                     
                    <label for="Service">Service</label>
                    <input name="Service" id="Service" type="text" required>
@@ -71,6 +62,8 @@
 
                    <label for="General_Image">Inside Image Directory</label>
                    <input name="General_Image" id="General_Image" type="text" required>
+                    
+                    <input name="secret2" id="secret2" type="hidden" value="yes">
 
                    <input type="submit"> <input type="reset">
                 </form>
@@ -82,9 +75,9 @@
 ?>
           <div class="row">
             <div class="large-12 columns">
-                <form action="db_insert.php" method="post">
-                   <label for="AboutOrder">Order Rank</label>
-                   <input name="AboutOrder" id="AboutOrder" type="number" required>
+                <form action="db_list.php" method="post">
+                   <!--<label for="AboutOrder">Order Rank</label>-->
+                   <input name="AboutOrder" id="AboutOrder" type="hidden" value="1" required>
 
                    <label for="AboutHeader">Header</label>
                    <input name="AboutHeader" id="AboutHeader" type="text" required>
@@ -94,6 +87,8 @@
 
                    <label for="NewImage">Image Directory</label>
                    <input name="NewImage" id="NewImage" type="text" required>
+                    
+                    <input name="secret3" id="secret3" type="hidden" value="yes">
 
                    <input type="submit"> <input type="reset">
                 </form>

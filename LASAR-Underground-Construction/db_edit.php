@@ -1,12 +1,9 @@
 <?php
-    require('navbar.php')
+    require('navbar.php');
     if ($_SESSION['isadmin'] == 1){
     } else {
         header('Location: login.php');
     }
-    
-?>
-    
     ?>
 
   <div class="row">
@@ -31,8 +28,8 @@
                    <h1>Homepage Row</h1>
                    <input type="hidden" name="ContentID" value="<?php echo $row['ContentID'];?>" >
 
-                   <label for="Piece_Order">Piece_Order</label>
-                   <input name="Piece_Order" id="Piece_Order" type="int" required value="<?php echo $row['Piece_Order'];?>">
+                   <!--<label for="Piece_Order">Piece_Order</label>-->
+                   <input name="Piece_Order" id="Piece_Order" type="hidden" required value="<?php// echo $row['Piece_Order'];?> 1 ">
 
                    <label for="Headers">Headers</label>
                    <input name="Headers" id="Headers" type="text" required value="<?php echo $row['Headers'];?>">
@@ -72,8 +69,8 @@
 
            <input type="hidden" name="ContentID" value="<?php echo $row['ContentID'];?>" >
 
-           <label for="AboutOrder">AboutOrder</label> <br>
-           <input name="AboutOrder" id="AboutOrder" type="int" required value="<?php echo $row['AboutOrder'];?>"> <br> <br>
+           <!--<label for="AboutOrder">AboutOrder</label> <br>-->
+           <input name="AboutOrder" id="AboutOrder" type="hidden" required value="<?php //echo $row['AboutOrder'];?>1"> <br> <br>
 
            <label for="AboutHeader">AboutHeader</label>
            <input name="AboutHeader" id="AboutHeader" type="text" required value="<?php echo $row['AboutHeader'];?>">
@@ -108,13 +105,14 @@
 
            <input type="hidden" name="ContentID" value="<?php echo $row['ContentID'];?>" >
 
-           <label for="Company">Companies</label>
+            
+           <label for="Company">Companies (make sure to add &#60;br&#62; Between each company name)</label>
            <input name="Company" id="Company" type="text" required value="<?php echo $row['Company'];?>">
 
-           <label for="Contact">Contact</label>
+           <label for="Contact">Contacts (make sure to add &#60;br&#62; Between each Contact method)</label>
            <input name="Contact" id="Contact" type="text" required value="<?php echo $row['Contact'];?>">
 
-           <label for="Locations">Locations</label>
+           <label for="Locations">Locations (make sure to add &#60;br&#62; Between each Location)</label>
            <input name="Locations" id="Locations" type="text" required value="<?php echo $row['Locations'];?>">
             
            <label for="Copyright">Copyright</label>
