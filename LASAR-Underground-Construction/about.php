@@ -30,7 +30,7 @@ require('navbar.php');?>
                   <span class='card-title wow' style='font-size:2.5rem;'>" . $row['AboutHeader'] . "</span>
                     ";
                     if ($row['NewImage'] != "") {
-                    echo "<img src='img/".$row['NewImage']."' alt='Image".$row['ContentID']."' style='width:30rem; margin-right:20px;' align='left'>"; 
+                    echo "<div class='hide-on-med-and-down'><img src='img/".$row['NewImage']."' alt='Image".$row['ContentID']."' style='width:30rem; margin-right:20px;' align='left'></div>";
                     };
                     echo $row['AboutText']."
 

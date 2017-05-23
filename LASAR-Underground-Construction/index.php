@@ -31,7 +31,7 @@ require('navbar.php');?>
     </div>
 </div>
     
-    <div style="padding-top: 70px; padding-bottom: 70px;" class=" container">
+    <div style="padding-top: 70px; padding-bottom: 70px;">
 
         <?php 
                 $sql = "SELECT `ContentID`, `Piece_Order`, `Headers`, `Image`, `text`, `links` FROM `homepage` WHERE 1";
@@ -41,16 +41,16 @@ require('navbar.php');?>
                     // output data of each row
                     while($row = $result->fetch_assoc()) {
                         ?>
-                        <div class="row">
+                        <div class="row container">
                             <div class="s12 col">
                                 <h4> <?php echo $row["Headers"]; ?> </h4>
                             </div>
 
-                            <div class='flow-text'>
-                                <img style='width:38rem; margin-right:15px;' src='img/<?php echo $row["Image"]; ?> ' alt='Image <?php echo $row["ContentID"]; ?> ' align='left'>
-                                <p> 
-                                    <?php echo $row["text"]; ?>
-                                </p>
+                            <div class='l6 s12 col'>
+                                <img style='width:100%; margin-right:15px;' src='img/<?php echo $row["Image"]; ?> ' alt='Image <?php echo $row["ContentID"]; ?> ' align='left'>
+                            </div>
+                            <div class='l6 s12 col'>
+                                <p class="flow-text"> <?php echo $row["text"]; ?> </p>
                             </div>
                         </div>
                         <div style='padding: 20px;'></div>
