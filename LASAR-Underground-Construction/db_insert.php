@@ -29,7 +29,7 @@
                    <input name="Headers" id="Headers" type="text" required>
 
                    <label for="Image">Image Directory</label>
-                   <input name="Image" id="Image" type="text" required>
+                   <input name="Image" id="Image" type="text">
 
                    <label for="text">Field Text</label>
                    <input name="text" id="text" type="text" required>

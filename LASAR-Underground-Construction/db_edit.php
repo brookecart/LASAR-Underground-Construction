@@ -35,7 +35,7 @@
                    <input name="Headers" id="Headers" type="text" required value="<?php echo $row['Headers'];?>">
 
                    <label for="Image">Image</label>
-                   <input name="Image" id="Image" type="text" required value="<?php echo $row['Image'];?>">
+                   <input name="Image" id="Image" type="text" value="<?php echo $row['Image'];?>">
 
                    <label for="text">Text</label>
                     <textarea name="text" id="text" type="text" required> <?php echo $row['text'];?></textarea>
