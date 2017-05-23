@@ -1,5 +1,6 @@
 <?php
     require('navbar.php');
+    require('log.php');
      if ($_SESSION['isadmin'] == 1){
         ///////////////////////////////////////// Delete Functions
                 if (isset($_GET["Dselect"])) {
