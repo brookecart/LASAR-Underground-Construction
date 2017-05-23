@@ -116,7 +116,7 @@
            <input name="Locations" id="Locations" type="text" required value="<?php echo $row['Locations'];?>">
             
            <label for="Copyright">Copyright</label>
-           <input name="Copyright" id="Copyright" type="text" required value="<?php echo $row['Locations'];?>">
+           <input name="Copyright" id="Copyright" type="text" required value="<?php echo $row['Copyright'];?>">
 
            <input type="submit"> <input type="reset">
            <?php }
